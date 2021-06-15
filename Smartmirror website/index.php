@@ -17,6 +17,8 @@ include('scripts.php');
     <div id="Clock">
     <?php Date_show(); ?>
     <div id="Time">
+        <?php $time = date("H:i:s");
+              echo $time; ?>
         <script type="text/javascript">
             setInterval(function() {
                         var currentTime = new Date ( );    
@@ -25,10 +27,7 @@ include('scripts.php');
                         var currentSeconds = currentTime.getSeconds ( );
                         currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;   
                         currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;    
-                        var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";    
-                        currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;    
-                        currentHours = ( currentHours == 0 ) ? 12 : currentHours;    
-                        var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+                        var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds;
                         document.getElementById("Time").innerHTML = currentTimeString;
                     }, 1000);
             </script>

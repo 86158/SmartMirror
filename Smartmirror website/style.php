@@ -10,12 +10,8 @@ body{
     margin: auto;
     width: calc(65% - 2px);
     height: calc(20% - 2px);
-    border: 1px solid gray;
     color: white;
     /*font-size: 25px;*/
-    font-family: "cursive", Verdana, sans-serif;
-    text-shadow: 1px 1px 1px darkgray,
-             2px 2px 1px darkgray;
 }
 #fitin{
     overflow: hidden;
@@ -32,7 +28,6 @@ body{
     left:1;
     width: calc(35% - 2px);
     height: calc(20% - 2px);
-    border: solid gray 1px;
     text-align: center;
     line-height: 2;
     font-size: 45px;
@@ -43,7 +38,6 @@ body{
     bottom: 1;
     width: calc(35% - 2px);
     height: calc(80% - 2px);
-    border: solid gray 1px;
 }
 #rooster img{
     width:calc(80%-2px)
@@ -52,7 +46,6 @@ body{
     position: fixed;
     width:calc(40% - 2px);
     height:calc(30% - 2px);
-    border: solid gray 1px;
     right: 1;
     top: 20%;
 }
@@ -60,9 +53,21 @@ body{
     position: fixed;
     height: 30%;
     width: 40%;
-    border: 1px solid gray;
     bottom: 1;
     right: 1;
+    color: white;
+    text-align: center;
+}
+#news_title{
+    font-size: 30px;
+}
+#news_description{
+    font-size: 25px;
+}
+#news_description a{
+    color: white;
+}
+#news_date a{
     color: white;
 }
 </style>

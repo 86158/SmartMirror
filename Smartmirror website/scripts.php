@@ -1,7 +1,7 @@
 <script type="text/javascript">
             setTimeout(function(){
                 window.location = "http://localhost/Smartmirror/";
-            }, 10000);
+            }, 30000);
 
             $(function() {
     while( $('#fitin div').height() > $('#fitin').height() ) {
