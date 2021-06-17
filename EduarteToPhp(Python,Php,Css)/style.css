@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+}
+#eduarteAgenda{
+    border: 1px solid white;
+    width: 100%;
+}
+.agendaDag{
+    text-align: left;
+}
+.agendaVak{
+    text-align: right;
+    padding-right: 5%;
+}
+.agendaBegintijd, .agendaEindtijd{
+    width: 15%;
+}
+.agendaBegintijd{
+    padding-right: 1%;
+    text-align: right;
+}
+.agendaEindtijd{
+    text-align: left;
+}
