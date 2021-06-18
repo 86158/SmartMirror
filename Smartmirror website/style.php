@@ -21,14 +21,18 @@ body{
 }
 #Time{
     color: white;
+    float: right;
+}
+.datum{
+    float: right;
+    font-size: 18px;
 }
 #Clock{
     color: white;
     position:fixed;
     left:1;
-    width: calc(35% - 2px);
-    height: calc(20% - 2px);
-    text-align: center;
+    width: 35%;
+    height: 20%;
     line-height: 2;
     font-size: 45px;
 }
@@ -36,16 +40,36 @@ body{
     position: fixed;
     left: 1;
     bottom: 1;
-    width: calc(35% - 2px);
-    height: calc(80% - 2px);
+    width: 35%;
+    height: 80%;
 }
-#rooster img{
-    width:calc(80%-2px)
+#eduarteAgenda{
+    border: 1px solid white;
+    width: 100%;
+    
+    color:white;
+}
+.agendaDag{
+    text-align: left;
+}
+.agendaVak{
+    text-align: right;
+    padding-right: 5%;
+}
+.agendaBegintijd, .agendaEindtijd{
+    width: 15%;
+}
+.agendaBegintijd{
+    padding-right: 1%;
+    text-align: right;
+}
+.agendaEindtijd{
+    text-align: left;
 }
 #cijfers{
     position: fixed;
-    width:calc(40% - 2px);
-    height:calc(30% - 2px);
+    width:40%;
+    height:30%;
     right: 1;
     top: 20%;
 }
@@ -69,5 +93,13 @@ body{
 }
 #news_date a{
     color: white;
+}
+#weer{
+    position: fixed;
+    height: 30%;
+    background-color: black;
+}
+iframe{
+    background-color: black;
 }
 </style>

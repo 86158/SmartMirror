@@ -15,9 +15,12 @@ include('scripts.php');
 <body>
 <?php $f = 1; ?>
     <div id="Clock">
-    <?php Date_show(); ?>
-    <div id="Time">
-        <?php $time = date("H:i:s");
+        <div id="weer">
+            <iframe src="//gadgets.buienradar.nl/gadget/forecastandstation/6370/" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=190></iframe>
+        </div>
+        <div class="datum"><?php Date_show(); ?></div>
+        <div id="Time">
+        <?php $time = date("G:i:s");
               echo $time; ?>
         <script type="text/javascript">
             setInterval(function() {
@@ -45,29 +48,38 @@ include('scripts.php');
             }  ?>
     </span>
     <div id="rooster">
-        <img src="images/rooster.png" alt="" width="100%">
+    <?php
+	include "roosterExport.php";
+	foreach ($roosterArray as $day){
+		echo "<table id='eduarteAgenda'>";
+
+		echo "<th class='agendaDag'>", $day['day'], "</th>";
+		foreach ($day['subjects'] as $subject){
+			echo "<tr><td class='agendaVak'>", $subject['vak'], "</td>";
+			echo "<td class='agendaBegintijd'>van: ", $subject['begintijd'], "</td><td class='agendaEindtijd'> tot: ", $subject["eindtijd"], "</td></tr>";
+		}
+		echo "</table>";
+	}
+?>
     </div>
     <div id="cijfers">
         <img src="images/cijfers.png" alt="" width="100%">
     </div>
+
     <div id="News">
         <?php
         //suppercooleschoolprojectenBV-INC.
         //BY: Sebastiaan Verhappen
         //function: Display random news article from nu.nl
-
         //get full array from nu.nl
         $feed = "https://www.nu.nl/rss/Algemeen";
         $feed_to_array = (array) simplexml_load_file($feed);
-
         //goto news articles in full feed array
         $feed_channel = (array) $feed_to_array['channel'];
         $feed_item = (array) $feed_channel['item'];
-
         //pick random article
         $feed_nmr = rand(0, count($feed_item)-1);
         $feed_article = (array) $feed_item[$feed_nmr];
-
         //print random article
         echo "<div id='news_article'>";
         echo "<h2 id='news_title'>",$feed_article['title'], "</h2>";
