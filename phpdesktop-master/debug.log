@@ -1,0 +1,1215 @@
+- 09:22:40.109 INFO: --------------------------------------------------------
+- 09:22:40.109 INFO: Started application
+- 09:22:40.109 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:22:40.109 INFO: Log level = DEBUG4
+- 09:22:40.109 INFO: Starting Mongoose 3.9c web server
+- 09:22:40.109 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:22:40.109 INFO: Index files: index.html,index.php
+- 09:22:40.109 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:22:40.109 INFO: CGI pattern: **.php$
+- 09:22:40.109 INFO: Hide files patterns: 
+- 09:22:40.109 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:22:40.125 INFO: Web server url: http://127.0.0.1:49737/
+- 09:22:40.125 INFO: remote_debugging_port = 51034
+- 09:22:40.125 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=51034
+- 09:22:41.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=F736DF2DA68378EC34DD3E32B0394DF6 --mojo-platform-channel-handle=1860 /prefetch:2
+- 09:22:41.422 DEBUG: App::OnContextInitialized()
+- 09:22:41.422 DEBUG: Window max width/height = 1840/1002
+- 09:22:41.422 DEBUG: GetBrowserWindow(): not found, hwnd = 996954
+- 09:22:41.422 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:22:41.422 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:22:41.422 DEBUG: StoreBrowserWindow(): hwnd = 996954
+- 09:22:42.500 DEBUG: ClientHandler::OnAfterCreated()
+- 09:22:42.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:22:42.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:22:42.016 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FB3F2878340481F789C48172CB996A85 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FB3F2878340481F789C48172CB996A85 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 09:22:42.047 DEBUG: OnBrowserCreated()
+[0624/092242.453:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:22:43.078 INFO: GET 200 /
+- 09:22:43.078 INFO: GET 200 /style.css
+- 09:22:43.516 DEBUG: OnContextCreated()
+- 09:22:43.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49737/
+- 09:22:46.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49737/
+- 09:22:47.922 DEBUG: OnContextCreated()
+- 09:22:47.484 INFO: GET 200 /blenc_myscript.php
+- 09:22:47.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49737/blenc_myscript.php
+- 09:22:49.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49737/blenc_myscript.php
+- 09:22:49.204 DEBUG: OnContextCreated()
+- 09:22:49.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49737/
+- 09:22:51.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49737/
+- 09:22:51.454 DEBUG: OnContextCreated()
+- 09:22:51.016 INFO: GET 200 /
+- 09:22:51.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49737/
+- 09:22:52.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49737/
+- 09:22:52.110 DEBUG: OnContextCreated()
+- 09:22:52.672 INFO: GET 200 /
+- 09:22:52.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49737/
+- 09:22:53.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49737/
+- 09:22:53.000 DEBUG: OnContextCreated()
+- 09:22:53.562 INFO: GET 200 /
+- 09:22:53.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49737/
+- 09:22:56.219 DEBUG: F12 pressed, opening developer tools
+- 09:22:56.234 DEBUG: ClientHandler::OnAfterCreated()
+- 09:22:56.234 DEBUG: GetBrowserWindow(): not found, hwnd = 472646
+- 09:22:56.234 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 09:22:56.234 DEBUG: StoreBrowserWindow(): hwnd = 472646
+- 09:22:56.250 DEBUG: Centering popup window relative to its parent
+- 09:22:56.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:22:56.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=8DF2F6F0F9A5B541858AC214D19318C4 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8DF2F6F0F9A5B541858AC214D19318C4 --renderer-client-id=4 --mojo-platform-channel-handle=2940 /prefetch:1
+- 09:22:56.032 DEBUG: OnBrowserCreated()
+- 09:22:56.047 DEBUG: OnContextCreated()
+- 09:22:57.484 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 09:22:57.484 DEBUG: F12 pressed, opening developer tools
+- 09:22:57.500 DEBUG: ClientHandler::OnAfterCreated()
+- 09:22:57.500 DEBUG: GetBrowserWindow(): not found, hwnd = 341500
+- 09:22:57.500 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 09:22:57.516 DEBUG: StoreBrowserWindow(): hwnd = 341500
+- 09:22:57.516 DEBUG: Centering popup window relative to its parent
+- 09:22:57.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:22:57.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6A8C24C6E686485DE428F0EEAB8F58B8 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6A8C24C6E686485DE428F0EEAB8F58B8 --renderer-client-id=5 --mojo-platform-channel-handle=3368 /prefetch:1
+- 09:22:57.047 DEBUG: OnBrowserCreated()
+- 09:22:57.063 DEBUG: OnContextCreated()
+- 09:22:57.781 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 09:22:59.062 DEBUG: OnBeforeClose() hwnd=341500
+- 09:22:59.062 DEBUG: RemoveBrowserWindow(): hwnd = 341500
+- 09:22:59.484 DEBUG: OnBrowserDestroyed()
+- 09:23:01.531 DEBUG: OnBeforeClose() hwnd=472646
+- 09:23:01.531 DEBUG: RemoveBrowserWindow(): hwnd = 472646
+- 09:23:19.937 INFO: GET 200 /
+- 09:23:19.953 INFO: GET 200 /style.css
+- 09:23:19.219 INFO: GET 200 /favicon.ico
+- 09:23:56.687 DEBUG: OnBeforeClose() hwnd=472494
+- 09:23:56.687 DEBUG: RemoveBrowserWindow(): hwnd = 472494
+- 09:23:56.687 DEBUG: GetBrowserWindow(): not found, hwnd = 472494
+- 09:23:56.687 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:24:32.125 INFO: --------------------------------------------------------
+- 09:24:32.125 INFO: Started application
+- 09:24:32.125 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:24:32.125 INFO: Log level = DEBUG4
+- 09:24:32.125 INFO: Starting Mongoose 3.9c web server
+- 09:24:32.125 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:24:32.125 INFO: Index files: index.html,index.php
+- 09:24:32.125 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:24:32.125 INFO: CGI pattern: **.php$
+- 09:24:32.125 INFO: Hide files patterns: 
+- 09:24:32.125 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:24:32.140 INFO: Web server url: http://127.0.0.1:62530/
+- 09:24:32.140 INFO: remote_debugging_port = 62088
+- 09:24:32.140 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=62088
+- 09:24:32.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=914D235E934A1B9A2C6D7777FDC784B5 --mojo-platform-channel-handle=1812 /prefetch:2
+- 09:24:32.625 DEBUG: App::OnContextInitialized()
+- 09:24:32.625 DEBUG: Window max width/height = 1840/1002
+- 09:24:32.625 DEBUG: GetBrowserWindow(): not found, hwnd = 341712
+- 09:24:32.625 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:24:32.625 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:24:32.625 DEBUG: StoreBrowserWindow(): hwnd = 341712
+- 09:24:32.718 DEBUG: ClientHandler::OnAfterCreated()
+- 09:24:32.718 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:24:32.734 DEBUG: OnLoadingStateChange: loading=1, url=
+[0624/092432.927:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:24:32.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F53DA17591688F4EDD0B497AD041F7DE --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F53DA17591688F4EDD0B497AD041F7DE --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 09:24:32.032 DEBUG: OnBrowserCreated()
+- 09:24:34.203 DEBUG: OnContextCreated()
+[0624/092434.143:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:62530/ (144)
+- 09:24:34.344 DEBUG: OnContextCreated()
+- 09:24:35.906 INFO: GET 200 /
+- 09:24:35.953 INFO: GET 200 /images/cijfers.png
+- 09:24:35.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62530/
+- 09:25:20.109 INFO: GET 200 /
+- 09:25:20.109 INFO: GET 200 /images/cijfers.png
+- 09:25:20.187 INFO: GET 404 /favicon.ico
+- 09:27:12.140 DEBUG: OnBeforeClose() hwnd=341742
+- 09:27:12.140 DEBUG: RemoveBrowserWindow(): hwnd = 341742
+- 09:27:12.140 DEBUG: GetBrowserWindow(): not found, hwnd = 341742
+- 09:27:12.140 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:27:18.125 INFO: --------------------------------------------------------
+- 09:27:18.125 INFO: Started application
+- 09:27:18.125 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:27:18.125 INFO: Log level = DEBUG4
+- 09:27:18.125 INFO: Starting Mongoose 3.9c web server
+- 09:27:18.125 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:27:18.125 INFO: Index files: index.html,index.php
+- 09:27:18.125 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:27:18.125 INFO: CGI pattern: **.php$
+- 09:27:18.125 INFO: Hide files patterns: 
+- 09:27:18.125 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:27:18.140 INFO: Web server url: http://127.0.0.1:56678/
+- 09:27:18.140 INFO: remote_debugging_port = 56331
+- 09:27:18.140 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=56331
+- 09:27:19.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=2DC520CCEEF5B9B4B086A10019B658E1 --mojo-platform-channel-handle=1812 /prefetch:2
+- 09:27:19.656 DEBUG: App::OnContextInitialized()
+- 09:27:19.656 DEBUG: Window max width/height = 1840/1002
+- 09:27:19.656 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 09:27:19.656 DEBUG: GetBrowserWindow(): not found, hwnd = 407262
+- 09:27:19.656 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:27:19.656 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:27:19.656 DEBUG: StoreBrowserWindow(): hwnd = 407262
+- 09:27:19.765 DEBUG: ClientHandler::OnAfterCreated()
+- 09:27:19.765 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[0624/092719.480:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:27:19.812 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:27:19.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0A016345D22069ECC33001DB88C68F0B --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0A016345D22069ECC33001DB88C68F0B --renderer-client-id=3 --mojo-platform-channel-handle=2448 /prefetch:1
+- 09:27:19.047 DEBUG: OnBrowserCreated()
+- 09:27:19.047 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0624/092719.590:WARNING:cache_util.cc(88)] Unable to delete cache folder.
+[0624/092719.604:WARNING:cache_util.cc(88)] Unable to delete cache folder.
+- 09:27:20.156 DEBUG: OnContextCreated()
+[0624/092720.698:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:56678/ (144)
+- 09:27:21.390 INFO: GET 200 /
+- 09:27:21.390 INFO: GET 200 /images/cijfers.png
+- 09:27:21.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56678/
+- 09:30:46.125 INFO: --------------------------------------------------------
+- 09:30:46.125 INFO: Started application
+- 09:30:46.125 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:30:46.125 INFO: Log level = DEBUG4
+- 09:30:46.125 INFO: Starting Mongoose 3.9c web server
+- 09:30:46.125 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:30:46.125 INFO: Index files: index.html,index.php
+- 09:30:46.125 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:30:46.125 INFO: CGI pattern: **.php$
+- 09:30:46.125 INFO: Hide files patterns: 
+- 09:30:46.125 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:30:46.125 INFO: Web server url: http://127.0.0.1:59883/
+- 09:30:46.125 INFO: remote_debugging_port = 52758
+- 09:30:46.125 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=52758
+- 09:30:47.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=F44033F5A12D7E16451ACB5C7F6D787B --mojo-platform-channel-handle=1812 /prefetch:2
+- 09:30:47.672 DEBUG: App::OnContextInitialized()
+- 09:30:47.672 DEBUG: Window max width/height = 1840/1002
+- 09:30:47.672 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 09:30:47.672 DEBUG: GetBrowserWindow(): not found, hwnd = 2034394
+- 09:30:47.672 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:30:47.672 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:30:47.672 DEBUG: StoreBrowserWindow(): hwnd = 2034394
+- 09:30:47.766 DEBUG: ClientHandler::OnAfterCreated()
+- 09:30:47.766 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[0624/093047.629:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:30:47.797 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:30:47.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E8BB9F912073B60A7CCC6CBC5B6742C6 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E8BB9F912073B60A7CCC6CBC5B6742C6 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 09:30:47.031 DEBUG: OnBrowserCreated()
+- 09:30:47.047 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 09:30:48.172 DEBUG: OnContextCreated()
+[0624/093048.834:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:59883/ (144)
+- 09:30:49.453 INFO: GET 200 /
+- 09:30:49.453 INFO: GET 200 /images/cijfers.png
+- 09:30:49.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59883/
+- 09:30:49.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59883/
+- 09:30:49.812 DEBUG: OnContextCreated()
+[0624/093049.473:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:30:49.703 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:31:32.547 DEBUG: F12 pressed, opening developer tools
+- 09:31:32.563 DEBUG: ClientHandler::OnAfterCreated()
+- 09:31:32.563 DEBUG: GetBrowserWindow(): not found, hwnd = 1193704
+- 09:31:32.563 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 09:31:32.563 DEBUG: StoreBrowserWindow(): hwnd = 1193704
+- 09:31:32.563 DEBUG: Centering popup window relative to its parent
+- 09:31:32.578 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:31:32.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0EC3776396E26BFA87AB23E73FA0F67D --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0EC3776396E26BFA87AB23E73FA0F67D --renderer-client-id=4 --mojo-platform-channel-handle=3540 /prefetch:1
+- 09:31:32.031 DEBUG: OnBrowserCreated()
+- 09:31:32.046 DEBUG: OnContextCreated()
+- 09:31:32.781 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 09:31:32.062 DEBUG: OnContextCreated()
+- 09:32:21.563 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:32:21.812 DEBUG: OnContextCreated()
+[0624/093221.477:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:32:21.937 DEBUG: OnContextCreated()
+- 09:32:21.797 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:34:35.125 INFO: --------------------------------------------------------
+- 09:34:35.125 INFO: Started application
+- 09:34:35.125 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:34:35.125 INFO: Log level = DEBUG4
+- 09:34:35.125 INFO: Starting Mongoose 3.9c web server
+- 09:34:35.125 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:34:35.125 INFO: Index files: index.html,index.php
+- 09:34:35.125 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:34:35.125 INFO: CGI pattern: **.php$
+- 09:34:35.125 INFO: Hide files patterns: 
+- 09:34:35.125 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:34:35.125 INFO: Web server url: http://127.0.0.1:52126/
+- 09:34:35.141 INFO: remote_debugging_port = 63981
+- 09:34:35.141 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=63981
+- 09:34:36.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=17277B60B3922A12A37AB99C7E5F715F --mojo-platform-channel-handle=1816 /prefetch:2
+- 09:34:36.672 DEBUG: App::OnContextInitialized()
+- 09:34:36.672 DEBUG: Window max width/height = 1840/1002
+- 09:34:36.672 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 09:34:36.672 DEBUG: GetBrowserWindow(): not found, hwnd = 406984
+- 09:34:36.672 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:34:36.672 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:34:36.672 DEBUG: StoreBrowserWindow(): hwnd = 406984
+- 09:34:36.797 DEBUG: ClientHandler::OnAfterCreated()
+- 09:34:36.797 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[0624/093436.245:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:34:36.860 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:34:36.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6A5E642F96FA22B1488E37D312F3D349 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6A5E642F96FA22B1488E37D312F3D349 --renderer-client-id=3 --mojo-platform-channel-handle=2440 /prefetch:1
+- 09:34:36.062 DEBUG: OnBrowserCreated()
+- 09:34:36.078 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0624/093436.366:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0624/093436.366:ERROR:cache_util.cc(134)] Unable to move cache folder C:\phpdesktop-master\webcache\GPUCache to C:\phpdesktop-master\webcache\old_GPUCache_001
+[0624/093436.366:ERROR:disk_cache.cc(132)] Unable to create cache
+[0624/093436.366:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0624/093436.382:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0624/093436.382:ERROR:cache_util.cc(134)] Unable to move cache folder C:\phpdesktop-master\webcache\Cache to C:\phpdesktop-master\webcache\old_Cache_001
+[0624/093436.382:ERROR:disk_cache.cc(132)] Unable to create cache
+- 09:34:37.172 DEBUG: OnContextCreated()
+[0624/093437.461:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:52126/ (144)
+- 09:34:37.485 INFO: GET 200 /
+- 09:34:37.485 INFO: GET 200 /images/cijfers.png
+- 09:34:37.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52126/
+- 09:34:37.532 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52126/
+- 09:34:37.687 DEBUG: OnContextCreated()
+[0624/093437.974:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:34:38.641 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:34:58.000 DEBUG: WM_DESTROY
+- 09:34:58.000 DEBUG: RemoveBrowserWindow(): hwnd = 406984
+- 09:34:58.000 INFO: Stopping Mongoose web server
+- 09:34:58.000 DEBUG: Mongoose webserver stopped immediately
+- 09:34:58.016 DEBUG: OnBeforeClose() hwnd=341450
+- 09:34:58.016 DEBUG: RemoveBrowserWindow(): hwnd = 341450
+- 09:34:58.016 DEBUG: GetBrowserWindow(): not found, hwnd = 341450
+- 09:34:58.032 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:34:58.032 DEBUG: Calling CefQuitMessageLoop()
+- 09:34:58.172 DEBUG: OnBrowserDestroyed()
+- 09:34:58.078 INFO: Ended application
+- 09:34:58.078 INFO: --------------------------------------------------------
+- 09:35:56.828 DEBUG: F5 pressed, reloading page
+- 09:35:56.828 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:35:56.062 DEBUG: OnContextCreated()
+[0624/093556.729:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:35:56.109 DEBUG: OnContextCreated()
+- 09:35:56.016 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:35:57.828 DEBUG: F5 pressed, reloading page
+- 09:35:57.828 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:35:57.078 DEBUG: OnContextCreated()
+[0624/093557.741:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:35:57.093 DEBUG: OnContextCreated()
+- 09:35:57.985 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:35:58.375 DEBUG: F5 pressed, reloading page
+- 09:35:58.375 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:35:58.625 DEBUG: OnContextCreated()
+[0624/093558.300:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:35:58.656 DEBUG: OnContextCreated()
+- 09:35:58.578 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:35:58.031 DEBUG: F5 pressed, reloading page
+- 09:35:58.031 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:35:58.265 DEBUG: OnContextCreated()
+[0624/093558.925:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:35:58.281 DEBUG: OnContextCreated()
+- 09:35:59.188 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:36:01.766 DEBUG: F5 pressed, reloading page
+- 09:36:01.766 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:36:01.000 DEBUG: OnContextCreated()
+[0624/093601.673:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:36:01.031 DEBUG: OnContextCreated()
+- 09:36:01.922 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:36:02.469 DEBUG: F5 pressed, reloading page
+- 09:36:02.469 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:36:02.718 DEBUG: OnContextCreated()
+[0624/093602.381:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:36:02.750 DEBUG: OnContextCreated()
+- 09:36:02.641 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:36:02.000 DEBUG: F5 pressed, reloading page
+- 09:36:02.000 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:36:02.203 DEBUG: OnContextCreated()
+[0624/093602.867:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:36:02.218 DEBUG: OnContextCreated()
+- 09:36:02.110 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:36:03.391 DEBUG: F5 pressed, reloading page
+- 09:36:03.391 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:36:03.640 DEBUG: OnContextCreated()
+[0624/093603.308:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:36:03.656 DEBUG: OnContextCreated()
+- 09:36:03.578 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:36:03.906 DEBUG: F5 pressed, reloading page
+- 09:36:03.906 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:36:03.125 DEBUG: OnContextCreated()
+[0624/093603.789:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:36:03.156 DEBUG: OnContextCreated()
+- 09:36:03.078 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:36:04.860 DEBUG: F5 pressed, reloading page
+- 09:36:04.860 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:36:04.109 DEBUG: OnContextCreated()
+[0624/093604.775:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:36:04.125 DEBUG: OnContextCreated()
+- 09:36:04.016 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:38:05.547 DEBUG: OnBeforeClose() hwnd=1193704
+- 09:38:05.547 DEBUG: RemoveBrowserWindow(): hwnd = 1193704
+- 09:38:05.953 DEBUG: OnBrowserDestroyed()
+- 09:38:07.688 DEBUG: WM_DESTROY
+- 09:38:07.688 DEBUG: RemoveBrowserWindow(): hwnd = 2034394
+- 09:38:07.688 INFO: Stopping Mongoose web server
+- 09:38:07.688 DEBUG: Mongoose webserver stopped immediately
+- 09:38:07.719 DEBUG: OnBeforeClose() hwnd=734980
+- 09:38:07.719 DEBUG: RemoveBrowserWindow(): hwnd = 734980
+- 09:38:07.719 DEBUG: GetBrowserWindow(): not found, hwnd = 734980
+- 09:38:07.719 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:38:07.719 DEBUG: Calling CefQuitMessageLoop()
+- 09:38:07.922 DEBUG: OnBrowserDestroyed()
+- 09:38:07.766 INFO: Ended application
+- 09:38:07.766 INFO: --------------------------------------------------------
+- 09:40:45.110 INFO: --------------------------------------------------------
+- 09:40:45.110 INFO: Started application
+- 09:40:45.110 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:40:45.110 INFO: Log level = DEBUG4
+- 09:40:45.110 INFO: Starting Mongoose 3.9c web server
+- 09:40:45.110 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:40:45.110 INFO: Index files: index.html,index.php
+- 09:40:45.110 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:40:45.110 INFO: CGI pattern: **.php$
+- 09:40:45.110 INFO: Hide files patterns: 
+- 09:40:45.110 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:40:45.125 INFO: Web server url: http://127.0.0.1:50448/
+- 09:40:45.125 INFO: remote_debugging_port = 54802
+- 09:40:45.125 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=54802
+- 09:40:46.015 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=7E28C774C92CE80622F5703E7647FFF0 --mojo-platform-channel-handle=1812 /prefetch:2
+- 09:40:46.625 DEBUG: App::OnContextInitialized()
+- 09:40:46.625 DEBUG: Window max width/height = 1840/1002
+- 09:40:46.625 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 09:40:46.641 DEBUG: GetBrowserWindow(): not found, hwnd = 2099930
+- 09:40:46.641 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:40:46.641 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:40:46.641 DEBUG: StoreBrowserWindow(): hwnd = 2099930
+- 09:40:46.719 DEBUG: ClientHandler::OnAfterCreated()
+- 09:40:46.719 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:40:46.750 DEBUG: OnLoadingStateChange: loading=1, url=
+[0624/094046.383:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:40:46.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6207B503441A30ECEE7DC71358564903 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6207B503441A30ECEE7DC71358564903 --renderer-client-id=3 --mojo-platform-channel-handle=2428 /prefetch:1
+- 09:40:46.031 DEBUG: OnBrowserCreated()
+- 09:40:46.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0624/094046.458:ERROR:cookie_monster.cc(1537)] Found 1 duplicate cookies for host='buienradar.nl', with {name='bm_sv', domain='.buienradar.nl', path='/'}
+- 09:40:47.172 DEBUG: OnContextCreated()
+[0624/094047.586:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50448/ (144)
+- 09:40:48.391 INFO: GET 200 /
+- 09:40:48.407 INFO: GET 200 /images/cijfers.png
+- 09:40:48.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50448/
+- 09:40:48.454 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50448/
+- 09:40:48.718 DEBUG: OnContextCreated()
+[0624/094048.141:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:40:48.641 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:42:31.532 DEBUG: OnBeforeClose() hwnd=800156
+- 09:42:31.532 DEBUG: RemoveBrowserWindow(): hwnd = 800156
+- 09:42:31.532 DEBUG: GetBrowserWindow(): not found, hwnd = 800156
+- 09:42:31.532 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:42:36.110 INFO: --------------------------------------------------------
+- 09:42:36.110 INFO: Started application
+- 09:42:36.110 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:42:36.110 INFO: Log level = DEBUG4
+- 09:42:36.110 INFO: Starting Mongoose 3.9c web server
+- 09:42:36.110 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:42:36.110 INFO: Index files: index.html,index.php
+- 09:42:36.110 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:42:36.110 INFO: CGI pattern: **.php$
+- 09:42:36.110 INFO: Hide files patterns: 
+- 09:42:36.110 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:42:36.125 INFO: Web server url: http://127.0.0.1:50390/
+- 09:42:36.125 INFO: remote_debugging_port = 55325
+- 09:42:36.125 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=55325
+- 09:42:36.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=14A67620AA508A175C9D26B7951BEE59 --mojo-platform-channel-handle=1816 /prefetch:2
+- 09:42:36.641 DEBUG: App::OnContextInitialized()
+- 09:42:36.641 DEBUG: Window max width/height = 1840/1002
+- 09:42:36.641 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 09:42:36.657 DEBUG: GetBrowserWindow(): not found, hwnd = 4591148
+- 09:42:36.657 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:42:36.657 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:42:36.657 DEBUG: StoreBrowserWindow(): hwnd = 4591148
+- 09:42:36.750 DEBUG: ClientHandler::OnAfterCreated()
+- 09:42:36.750 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[0624/094236.706:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:42:36.797 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:42:36.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B4FB519CA80EABA9F99593F21178011D --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B4FB519CA80EABA9F99593F21178011D --renderer-client-id=3 --mojo-platform-channel-handle=2436 /prefetch:1
+- 09:42:36.047 DEBUG: OnBrowserCreated()
+- 09:42:36.047 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 09:42:37.156 DEBUG: OnContextCreated()
+[0624/094237.906:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50390/ (144)
+- 09:42:38.532 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50390/
+- 09:42:38.719 DEBUG: OnContextCreated()
+[0624/094238.460:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:42:38.547 INFO: GET 200 /
+- 09:42:38.657 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:42:52.703 DEBUG: F12 pressed, opening developer tools
+- 09:42:52.719 DEBUG: ClientHandler::OnAfterCreated()
+- 09:42:52.719 DEBUG: GetBrowserWindow(): not found, hwnd = 866016
+- 09:42:52.719 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 09:42:52.719 DEBUG: StoreBrowserWindow(): hwnd = 866016
+- 09:42:52.719 DEBUG: Centering popup window relative to its parent
+- 09:42:52.735 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:42:52.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D8A40DF790D0A859099B1F2B98AFEE19 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D8A40DF790D0A859099B1F2B98AFEE19 --renderer-client-id=4 --mojo-platform-channel-handle=3572 /prefetch:1
+- 09:42:52.031 DEBUG: OnBrowserCreated()
+- 09:42:52.047 DEBUG: OnContextCreated()
+- 09:42:52.922 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 09:42:52.203 DEBUG: OnContextCreated()
+- 09:45:07.109 INFO: --------------------------------------------------------
+- 09:45:07.109 INFO: Started application
+- 09:45:07.109 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:45:07.109 INFO: Log level = DEBUG4
+- 09:45:07.109 INFO: Starting Mongoose 3.9c web server
+- 09:45:07.109 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:45:07.109 INFO: Index files: index.html,index.php
+- 09:45:07.109 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:45:07.109 INFO: CGI pattern: **.php$
+- 09:45:07.109 INFO: Hide files patterns: 
+- 09:45:07.109 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:45:07.125 INFO: Web server url: http://127.0.0.1:63917/
+- 09:45:07.125 INFO: remote_debugging_port = 57308
+- 09:45:07.125 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=57308
+- 09:45:08.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=6FCEC768516145053E5DF64B9BACB081 --mojo-platform-channel-handle=1812 /prefetch:2
+- 09:45:08.625 DEBUG: App::OnContextInitialized()
+- 09:45:08.625 DEBUG: Window max width/height = 1840/1002
+- 09:45:08.640 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 09:45:08.640 DEBUG: GetBrowserWindow(): not found, hwnd = 985696
+- 09:45:08.640 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:45:08.640 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:45:08.640 DEBUG: StoreBrowserWindow(): hwnd = 985696
+- 09:45:08.750 DEBUG: ClientHandler::OnAfterCreated()
+- 09:45:08.750 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:45:08.781 DEBUG: OnLoadingStateChange: loading=1, url=
+[0624/094508.587:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:45:08.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7EB33753B9237141F58D6702E35F065E --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7EB33753B9237141F58D6702E35F065E --renderer-client-id=3 --mojo-platform-channel-handle=2452 /prefetch:1
+- 09:45:08.031 DEBUG: OnBrowserCreated()
+- 09:45:08.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0624/094508.643:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0624/094508.643:ERROR:cache_util.cc(134)] Unable to move cache folder C:\phpdesktop-master\webcache\GPUCache to C:\phpdesktop-master\webcache\old_GPUCache_001
+[0624/094508.643:ERROR:disk_cache.cc(132)] Unable to create cache
+[0624/094508.643:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0624/094508.652:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0624/094508.652:ERROR:cache_util.cc(134)] Unable to move cache folder C:\phpdesktop-master\webcache\Cache to C:\phpdesktop-master\webcache\old_Cache_001
+[0624/094508.652:ERROR:disk_cache.cc(132)] Unable to create cache
+- 09:45:09.125 DEBUG: OnContextCreated()
+[0624/094509.726:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:63917/ (144)
+- 09:45:10.422 INFO: GET 200 /
+- 09:45:10.422 INFO: GET 200 /images/cijfers.png
+- 09:45:10.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63917/
+- 09:45:10.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63917/
+- 09:45:10.750 DEBUG: OnContextCreated()
+[0624/094510.348:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:45:10.672 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:45:13.187 DEBUG: F12 pressed, opening developer tools
+- 09:45:13.203 DEBUG: ClientHandler::OnAfterCreated()
+- 09:45:13.203 DEBUG: GetBrowserWindow(): not found, hwnd = 2635240
+- 09:45:13.203 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 09:45:13.203 DEBUG: StoreBrowserWindow(): hwnd = 2635240
+- 09:45:13.203 DEBUG: Centering popup window relative to its parent
+- 09:45:14.218 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:45:14.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1D516D707CDFDFB92EEE9F894BF43A7F --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1D516D707CDFDFB92EEE9F894BF43A7F --renderer-client-id=4 --mojo-platform-channel-handle=3452 /prefetch:1
+- 09:45:14.031 DEBUG: OnBrowserCreated()
+- 09:45:14.031 DEBUG: OnContextCreated()
+- 09:45:14.422 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 09:45:14.703 DEBUG: OnContextCreated()
+- 09:45:46.734 INFO: GET 200 /
+- 09:45:46.734 INFO: GET 200 /images/cijfers.png
+- 09:45:46.797 INFO: GET 404 /favicon.ico
+- 09:46:37.203 DEBUG: OnBeforeClose() hwnd=393598
+- 09:46:37.203 DEBUG: RemoveBrowserWindow(): hwnd = 393598
+- 09:46:37.203 DEBUG: GetBrowserWindow(): not found, hwnd = 393598
+- 09:46:37.203 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:46:42.360 DEBUG: OnBeforeClose() hwnd=996892
+- 09:46:42.360 DEBUG: RemoveBrowserWindow(): hwnd = 996892
+- 09:46:42.360 DEBUG: GetBrowserWindow(): not found, hwnd = 996892
+- 09:46:42.360 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:46:58.109 INFO: --------------------------------------------------------
+- 09:46:58.109 INFO: Started application
+- 09:46:58.109 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:46:58.109 INFO: Log level = DEBUG4
+- 09:46:58.109 INFO: Starting Mongoose 3.9c web server
+- 09:46:58.109 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:46:58.109 INFO: Index files: index.html,index.php
+- 09:46:58.109 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:46:58.109 INFO: CGI pattern: **.php$
+- 09:46:58.109 INFO: Hide files patterns: 
+- 09:46:58.109 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:46:58.125 INFO: Web server url: http://127.0.0.1:53669/
+- 09:46:58.125 INFO: remote_debugging_port = 62208
+- 09:46:58.125 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=62208
+- 09:46:58.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=E4D1F5FB957BA2D306EFC39224192974 --mojo-platform-channel-handle=1812 /prefetch:2
+- 09:46:58.625 DEBUG: App::OnContextInitialized()
+- 09:46:58.625 DEBUG: Window max width/height = 1840/1002
+- 09:46:58.625 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 09:46:58.625 DEBUG: GetBrowserWindow(): not found, hwnd = 1390264
+- 09:46:58.625 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:46:58.625 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:46:58.625 DEBUG: StoreBrowserWindow(): hwnd = 1390264
+- 09:46:58.703 DEBUG: ClientHandler::OnAfterCreated()
+- 09:46:58.703 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:46:58.750 DEBUG: OnLoadingStateChange: loading=1, url=
+[0624/094658.827:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:46:58.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B968B7C4F842AB35C081652EC46045A9 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B968B7C4F842AB35C081652EC46045A9 --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 09:46:58.031 DEBUG: OnBrowserCreated()
+- 09:46:58.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 09:46:59.156 DEBUG: OnContextCreated()
+[0624/094659.997:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:53669/ (144)
+- 09:47:00.375 INFO: GET 200 /
+- 09:47:00.375 INFO: GET 200 /images/cijfers.png
+- 09:47:00.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53669/
+- 09:47:00.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53669/
+- 09:47:00.781 DEBUG: OnContextCreated()
+[0624/094700.615:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:47:00.641 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:47:10.031 DEBUG: F12 pressed, opening developer tools
+- 09:47:10.047 DEBUG: ClientHandler::OnAfterCreated()
+- 09:47:10.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1324624
+- 09:47:10.047 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 09:47:10.047 DEBUG: StoreBrowserWindow(): hwnd = 1324624
+- 09:47:10.047 DEBUG: Centering popup window relative to its parent
+- 09:47:10.062 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:47:10.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=8E372974C6C888ABB4245E9B99D05F58 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8E372974C6C888ABB4245E9B99D05F58 --renderer-client-id=4 --mojo-platform-channel-handle=3480 /prefetch:1
+- 09:47:10.015 DEBUG: OnBrowserCreated()
+- 09:47:10.031 DEBUG: OnContextCreated()
+- 09:47:10.250 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 09:47:10.593 DEBUG: OnContextCreated()
+- 09:59:37.125 INFO: --------------------------------------------------------
+- 09:59:37.125 INFO: Started application
+- 09:59:37.125 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 09:59:37.125 INFO: Log level = DEBUG4
+- 09:59:37.125 INFO: Starting Mongoose 3.9c web server
+- 09:59:37.125 INFO: WWW directory: C:\phpdesktop-master\www
+- 09:59:37.125 INFO: Index files: index.html,index.php
+- 09:59:37.125 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 09:59:37.125 INFO: CGI pattern: **.php$
+- 09:59:37.125 INFO: Hide files patterns: 
+- 09:59:37.125 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:59:37.140 INFO: Web server url: http://127.0.0.1:57809/
+- 09:59:37.140 INFO: remote_debugging_port = 53185
+- 09:59:37.140 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=53185
+- 09:59:38.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=F7C510D6196A0617DDFF67F0F51FD289 --mojo-platform-channel-handle=1812 /prefetch:2
+- 09:59:38.672 DEBUG: App::OnContextInitialized()
+- 09:59:38.672 DEBUG: Window max width/height = 1840/1002
+- 09:59:38.672 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 09:59:38.672 DEBUG: GetBrowserWindow(): not found, hwnd = 333824
+- 09:59:38.672 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:59:38.672 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:59:38.672 DEBUG: StoreBrowserWindow(): hwnd = 333824
+- 09:59:38.781 DEBUG: ClientHandler::OnAfterCreated()
+- 09:59:38.781 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[0624/095938.601:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:59:38.828 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:59:38.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=874C8ABEB7A4203FFA52D80A17D7C416 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=874C8ABEB7A4203FFA52D80A17D7C416 --renderer-client-id=3 --mojo-platform-channel-handle=2448 /prefetch:1
+- 09:59:38.031 DEBUG: OnBrowserCreated()
+- 09:59:38.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0624/095938.701:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0624/095938.701:ERROR:cache_util.cc(134)] Unable to move cache folder C:\phpdesktop-master\webcache\GPUCache to C:\phpdesktop-master\webcache\old_GPUCache_001
+[0624/095938.702:ERROR:disk_cache.cc(132)] Unable to create cache
+[0624/095938.702:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0624/095938.714:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0624/095938.714:ERROR:cache_util.cc(134)] Unable to move cache folder C:\phpdesktop-master\webcache\Cache to C:\phpdesktop-master\webcache\old_Cache_001
+[0624/095938.714:ERROR:disk_cache.cc(132)] Unable to create cache
+- 09:59:39.125 DEBUG: OnContextCreated()
+[0624/095939.789:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:57809/ (144)
+- 09:59:40.437 INFO: GET 200 /
+- 09:59:40.453 INFO: GET 200 /images/cijfers.png
+- 09:59:40.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57809/
+- 09:59:40.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57809/
+- 09:59:40.734 DEBUG: OnContextCreated()
+[0624/095940.407:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:59:40.718 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:59:56.531 DEBUG: F5 pressed, reloading page
+- 09:59:56.531 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:59:56.718 DEBUG: OnContextCreated()
+[0624/095956.383:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:59:56.750 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:59:59.297 DEBUG: F5 pressed, reloading page
+- 09:59:59.297 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:59:59.484 DEBUG: OnContextCreated()
+[0624/095959.144:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 09:59:59.453 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 09:59:59.047 DEBUG: F5 pressed, reloading page
+- 09:59:59.047 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 09:59:59.203 DEBUG: OnContextCreated()
+[0624/095959.875:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:00:00.406 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:00:00.765 DEBUG: F5 pressed, reloading page
+- 10:00:00.765 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:00:00.953 DEBUG: OnContextCreated()
+[0624/100000.626:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:00:00.953 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:09.843 DEBUG: F5 pressed, reloading page
+- 10:01:09.843 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:09.875 DEBUG: F5 pressed, reloading page
+- 10:01:09.875 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://localhost/Smartmirror/
+- 10:01:09.875 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:09.875 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:09.015 DEBUG: OnContextCreated()
+[0624/100109.686:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:09.047 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:10.578 DEBUG: F5 pressed, reloading page
+- 10:01:10.578 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:10.734 DEBUG: OnContextCreated()
+[0624/100110.395:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:10.687 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:10.203 DEBUG: F5 pressed, reloading page
+- 10:01:10.203 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:11.359 DEBUG: OnContextCreated()
+[0624/100111.026:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:11.343 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:11.843 DEBUG: F5 pressed, reloading page
+- 10:01:11.843 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:11.984 DEBUG: OnContextCreated()
+[0624/100111.657:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:11.968 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:12.937 DEBUG: F5 pressed, reloading page
+- 10:01:12.937 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:12.093 DEBUG: OnContextCreated()
+[0624/100112.768:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:12.047 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:13.547 DEBUG: F5 pressed, reloading page
+- 10:01:13.562 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:13.687 DEBUG: OnContextCreated()
+[0624/100113.361:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:13.656 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:13.125 DEBUG: F5 pressed, reloading page
+- 10:01:13.125 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:13.265 DEBUG: OnContextCreated()
+[0624/100113.939:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:14.359 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:14.125 DEBUG: F5 pressed, reloading page
+- 10:01:14.125 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:14.312 DEBUG: OnContextCreated()
+[0624/100114.985:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:15.297 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:15.047 DEBUG: F5 pressed, reloading page
+- 10:01:15.047 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:15.218 DEBUG: OnContextCreated()
+[0624/100115.880:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:16.234 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:16.609 DEBUG: F5 pressed, reloading page
+- 10:01:16.609 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:16.797 DEBUG: OnContextCreated()
+[0624/100116.465:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:16.750 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:16.156 DEBUG: F5 pressed, reloading page
+- 10:01:16.156 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:16.297 DEBUG: OnContextCreated()
+[0624/100116.960:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:17.328 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:17.718 DEBUG: F5 pressed, reloading page
+- 10:01:17.718 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:17.875 DEBUG: OnContextCreated()
+[0624/100117.546:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:17.765 DEBUG: F5 pressed, reloading page
+- 10:01:17.781 DEBUG: OnLoadError, errorCode=-3, failedUrl=https://gadgets.buienradar.nl/gadget/forecastandstation/6370/
+- 10:01:17.781 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://localhost/Smartmirror/
+- 10:01:17.906 DEBUG: OnContextCreated()
+[0624/100117.575:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:17.875 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:18.390 DEBUG: F5 pressed, reloading page
+- 10:01:18.406 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:18.562 DEBUG: OnContextCreated()
+[0624/100118.226:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:18.515 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:18.031 DEBUG: F5 pressed, reloading page
+- 10:01:18.031 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:18.187 DEBUG: OnContextCreated()
+[0624/100118.856:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:18.140 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:19.656 DEBUG: F5 pressed, reloading page
+- 10:01:19.656 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:19.797 DEBUG: OnContextCreated()
+[0624/100119.467:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:19.781 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:20.297 DEBUG: F5 pressed, reloading page
+- 10:01:20.297 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:20.453 DEBUG: OnContextCreated()
+[0624/100120.123:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:20.437 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:21.593 DEBUG: F5 pressed, reloading page
+- 10:01:21.593 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:21.718 DEBUG: OnContextCreated()
+[0624/100121.393:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:21.672 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:21.125 DEBUG: F5 pressed, reloading page
+- 10:01:21.125 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:21.265 DEBUG: OnContextCreated()
+[0624/100121.926:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:22.343 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:22.812 DEBUG: F5 pressed, reloading page
+- 10:01:22.812 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:22.968 DEBUG: OnContextCreated()
+[0624/100122.636:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:22.062 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:01:23.406 DEBUG: F5 pressed, reloading page
+- 10:01:23.406 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Smartmirror/
+- 10:01:23.547 DEBUG: OnContextCreated()
+[0624/100123.217:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://localhost/Smartmirror/ (144)
+- 10:01:23.515 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Smartmirror/
+- 10:05:56.234 DEBUG: OnBeforeClose() hwnd=1051736
+- 10:05:56.234 DEBUG: RemoveBrowserWindow(): hwnd = 1051736
+- 10:05:56.234 DEBUG: GetBrowserWindow(): not found, hwnd = 1051736
+- 10:05:56.234 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:05:57.062 DEBUG: OnBeforeClose() hwnd=865712
+- 10:05:57.062 DEBUG: RemoveBrowserWindow(): hwnd = 865712
+- 10:05:57.062 DEBUG: GetBrowserWindow(): not found, hwnd = 865712
+- 10:05:57.062 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:11:33.110 INFO: --------------------------------------------------------
+- 10:11:33.110 INFO: Started application
+- 10:11:33.110 INFO: Logging to: C:\phpdesktop-master\debug.log
+- 10:11:33.110 INFO: Log level = DEBUG4
+- 10:11:33.110 INFO: Starting Mongoose 3.9c web server
+- 10:11:33.110 INFO: WWW directory: C:\phpdesktop-master\www
+- 10:11:33.110 INFO: Index files: index.html,index.php
+- 10:11:33.110 INFO: CGI interpreter: C:\phpdesktop-master\php\php-cgi.exe
+- 10:11:33.110 INFO: CGI pattern: **.php$
+- 10:11:33.110 INFO: Hide files patterns: 
+- 10:11:33.110 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:11:33.125 INFO: Web server url: http://127.0.0.1:58801/
+- 10:11:33.125 INFO: remote_debugging_port = 63016
+- 10:11:33.125 DEBUG: Command line string for the browser process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --remote-debugging-port=63016
+- 10:11:33.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --service-request-channel-token=398223A0FB8A9173CA4719473F58DF7E --mojo-platform-channel-handle=1812 /prefetch:2
+- 10:11:33.672 DEBUG: App::OnContextInitialized()
+- 10:11:33.672 DEBUG: Window max width/height = 1840/1002
+- 10:11:33.672 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 10:11:33.672 DEBUG: GetBrowserWindow(): not found, hwnd = 1390020
+- 10:11:33.672 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:11:33.672 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:11:33.672 DEBUG: StoreBrowserWindow(): hwnd = 1390020
+- 10:11:33.750 DEBUG: ClientHandler::OnAfterCreated()
+- 10:11:33.750 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:11:33.782 DEBUG: OnLoadingStateChange: loading=1, url=
+[0624/101133.721:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:11:33.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D14AC35DD26D504055A3478EB9ED0756 --lang=en-US --lang=en-US --log-file="C:\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D14AC35DD26D504055A3478EB9ED0756 --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+- 10:11:33.031 DEBUG: OnBrowserCreated()
+- 10:11:33.047 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 10:11:34.187 DEBUG: OnContextCreated()
+[0624/101134.934:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:35.485 INFO: GET 200 /
+- 10:11:35.500 INFO: GET 200 /images/cijfers.png
+- 10:11:35.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:35.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:35.781 DEBUG: OnContextCreated()
+[0624/101135.533:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:35.016 INFO: GET 200 /
+- 10:11:35.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:36.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:36.344 DEBUG: OnContextCreated()
+[0624/101136.092:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:36.641 INFO: GET 200 /
+- 10:11:36.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:36.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:36.906 DEBUG: OnContextCreated()
+[0624/101136.651:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:37.094 INFO: GET 200 /
+- 10:11:37.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:37.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:37.453 DEBUG: OnContextCreated()
+[0624/101137.204:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:37.672 INFO: GET 200 /
+- 10:11:37.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:37.782 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:37.015 DEBUG: OnContextCreated()
+[0624/101137.761:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:38.250 INFO: GET 200 /
+- 10:11:38.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:38.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:38.578 DEBUG: OnContextCreated()
+[0624/101138.320:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:38.797 INFO: GET 200 /
+- 10:11:38.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:38.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:38.140 DEBUG: OnContextCreated()
+[0624/101138.882:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:39.360 INFO: GET 200 /
+- 10:11:39.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:39.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:39.703 DEBUG: OnContextCreated()
+[0624/101139.447:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:39.000 INFO: GET 200 /
+- 10:11:39.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:39.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:40.265 DEBUG: OnContextCreated()
+[0624/101140.005:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:40.516 INFO: GET 200 /
+- 10:11:40.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:40.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:40.812 DEBUG: OnContextCreated()
+[0624/101140.561:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:40.063 INFO: GET 200 /
+- 10:11:41.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:41.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:41.375 DEBUG: OnContextCreated()
+[0624/101141.118:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:41.610 INFO: GET 200 /
+- 10:11:41.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:41.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:41.937 DEBUG: OnContextCreated()
+[0624/101141.676:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:42.266 INFO: GET 200 /
+- 10:11:42.500 DEBUG: OnContextCreated()
+[0624/101142.247:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:42.750 INFO: GET 200 /
+- 10:11:42.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:42.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:42.062 DEBUG: OnContextCreated()
+[0624/101142.806:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:43.297 INFO: GET 200 /
+- 10:11:43.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:43.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:43.609 DEBUG: OnContextCreated()
+[0624/101143.362:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:43.891 INFO: GET 200 /
+- 10:11:43.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:43.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:43.172 DEBUG: OnContextCreated()
+[0624/101143.920:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:44.407 INFO: GET 200 /
+- 10:11:44.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:44.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:44.734 DEBUG: OnContextCreated()
+[0624/101144.483:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:45.125 INFO: GET 200 /
+- 10:11:45.406 DEBUG: OnContextCreated()
+[0624/101145.146:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:45.703 INFO: GET 200 /
+- 10:11:45.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:45.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:45.984 DEBUG: OnContextCreated()
+[0624/101145.724:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:46.188 INFO: GET 200 /
+- 10:11:46.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:46.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:46.547 DEBUG: OnContextCreated()
+[0624/101146.290:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:46.782 INFO: GET 200 /
+- 10:11:46.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:46.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:46.109 DEBUG: OnContextCreated()
+[0624/101146.859:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:47.563 INFO: GET 200 /
+- 10:11:47.828 DEBUG: OnContextCreated()
+[0624/101147.574:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:48.188 INFO: GET 200 /
+- 10:11:48.422 DEBUG: OnContextCreated()
+[0624/101148.170:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:48.641 INFO: GET 200 /
+- 10:11:48.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:48.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:48.984 DEBUG: OnContextCreated()
+[0624/101148.726:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:49.360 INFO: GET 200 /
+- 10:11:49.594 DEBUG: OnContextCreated()
+[0624/101149.341:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:49.907 INFO: GET 200 /
+- 10:11:49.156 DEBUG: OnContextCreated()
+[0624/101149.897:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:50.391 INFO: GET 200 /
+- 10:11:50.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:50.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:50.719 DEBUG: OnContextCreated()
+[0624/101150.480:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:50.000 INFO: GET 200 /
+- 10:11:50.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:50.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:51.297 DEBUG: OnContextCreated()
+[0624/101151.048:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:51.610 INFO: GET 200 /
+- 10:11:51.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:51.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:51.875 DEBUG: OnContextCreated()
+[0624/101151.621:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:52.125 INFO: GET 200 /
+- 10:11:52.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:52.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:52.437 DEBUG: OnContextCreated()
+[0624/101152.188:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:52.735 INFO: GET 200 /
+- 10:11:52.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:52.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:52.000 DEBUG: OnContextCreated()
+[0624/101152.743:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:53.266 INFO: GET 200 /
+- 10:11:53.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:53.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:53.562 DEBUG: OnContextCreated()
+[0624/101153.303:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:53.875 INFO: GET 200 /
+- 10:11:53.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:53.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:53.125 DEBUG: OnContextCreated()
+[0624/101153.866:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:54.391 INFO: GET 200 /
+- 10:11:54.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:54.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:54.687 DEBUG: OnContextCreated()
+[0624/101154.429:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:54.891 INFO: GET 200 /
+- 10:11:54.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:54.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:54.234 DEBUG: OnContextCreated()
+[0624/101154.985:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:55.453 INFO: GET 200 /
+- 10:11:55.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:55.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:55.797 DEBUG: OnContextCreated()
+[0624/101155.540:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:55.000 INFO: GET 200 /
+- 10:11:55.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:56.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:56.359 DEBUG: OnContextCreated()
+[0624/101156.108:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:56.610 INFO: GET 200 /
+- 10:11:56.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:56.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:56.922 DEBUG: OnContextCreated()
+[0624/101156.673:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:57.125 INFO: GET 200 /
+- 10:11:57.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:57.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:57.484 DEBUG: OnContextCreated()
+[0624/101157.229:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:57.735 INFO: GET 200 /
+- 10:11:57.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:57.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:57.047 DEBUG: OnContextCreated()
+[0624/101157.787:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:58.250 INFO: GET 200 /
+- 10:11:58.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:58.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:58.594 DEBUG: OnContextCreated()
+[0624/101158.345:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:58.844 INFO: GET 200 /
+- 10:11:58.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:58.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:58.156 DEBUG: OnContextCreated()
+[0624/101158.905:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:59.438 INFO: GET 200 /
+- 10:11:59.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:59.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:11:59.719 DEBUG: OnContextCreated()
+[0624/101159.461:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:11:59.922 INFO: GET 200 /
+- 10:11:59.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:11:59.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:00.265 DEBUG: OnContextCreated()
+[0624/101200.016:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:00.516 INFO: GET 200 /
+- 10:12:00.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:00.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:00.828 DEBUG: OnContextCreated()
+[0624/101200.576:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:01.141 INFO: GET 200 /
+- 10:12:01.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:01.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:01.390 DEBUG: OnContextCreated()
+[0624/101201.137:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:01.641 INFO: GET 200 /
+- 10:12:01.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:01.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:01.969 DEBUG: OnContextCreated()
+[0624/101201.716:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:02.250 INFO: GET 200 /
+- 10:12:02.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:02.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:02.531 DEBUG: OnContextCreated()
+[0624/101202.282:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:02.797 INFO: GET 200 /
+- 10:12:02.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:02.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:02.094 DEBUG: OnContextCreated()
+[0624/101202.836:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:03.297 INFO: GET 200 /
+- 10:12:03.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:03.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:03.656 DEBUG: OnContextCreated()
+[0624/101203.399:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:03.922 INFO: GET 200 /
+- 10:12:03.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:03.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:03.219 DEBUG: OnContextCreated()
+[0624/101203.965:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:04.563 INFO: GET 200 /
+- 10:12:04.828 DEBUG: OnContextCreated()
+[0624/101204.573:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:05.078 INFO: GET 200 /
+- 10:12:05.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:05.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:05.375 DEBUG: OnContextCreated()
+[0624/101205.127:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:05.610 INFO: GET 200 /
+- 10:12:05.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:05.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:05.953 DEBUG: OnContextCreated()
+[0624/101205.692:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:06.203 INFO: GET 200 /
+- 10:12:06.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:06.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:06.500 DEBUG: OnContextCreated()
+[0624/101206.244:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:06.735 INFO: GET 200 /
+- 10:12:06.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:06.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:06.062 DEBUG: OnContextCreated()
+[0624/101206.801:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:07.282 INFO: GET 200 /
+- 10:12:07.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:07.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:07.609 DEBUG: OnContextCreated()
+[0624/101207.360:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:07.828 INFO: GET 200 /
+- 10:12:07.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:07.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:07.172 DEBUG: OnContextCreated()
+[0624/101207.921:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:08.453 INFO: GET 200 /
+- 10:12:08.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:08.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:08.734 DEBUG: OnContextCreated()
+[0624/101208.477:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:08.922 INFO: GET 200 /
+- 10:12:08.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:08.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:09.281 DEBUG: OnContextCreated()
+[0624/101209.032:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:09.485 INFO: GET 200 /
+- 10:12:09.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:09.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:09.844 DEBUG: OnContextCreated()
+[0624/101209.588:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:09.047 INFO: GET 200 /
+- 10:12:09.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:10.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:10.406 DEBUG: OnContextCreated()
+[0624/101210.146:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:10.610 INFO: GET 200 /
+- 10:12:10.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:10.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:10.969 DEBUG: OnContextCreated()
+[0624/101210.711:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:11.203 INFO: GET 200 /
+- 10:12:11.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:11.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:11.531 DEBUG: OnContextCreated()
+[0624/101211.277:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:11.766 INFO: GET 200 /
+- 10:12:11.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:11.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:11.094 DEBUG: OnContextCreated()
+[0624/101211.833:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:12.313 INFO: GET 200 /
+- 10:12:12.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:14.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:14.140 DEBUG: OnContextCreated()
+[0624/101214.887:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:15.375 INFO: GET 200 /
+- 10:12:15.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:17.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:17.203 DEBUG: OnContextCreated()
+[0624/101217.943:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:18.407 INFO: GET 200 /
+- 10:12:18.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:20.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:20.250 DEBUG: OnContextCreated()
+[0624/101221.000:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:21.469 INFO: GET 200 /
+- 10:12:21.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:24.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:24.312 DEBUG: OnContextCreated()
+[0624/101224.054:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:24.516 INFO: GET 200 /
+- 10:12:24.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:27.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:27.359 DEBUG: OnContextCreated()
+[0624/101227.112:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:27.641 INFO: GET 200 /
+- 10:12:27.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:30.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:30.437 DEBUG: OnContextCreated()
+[0624/101230.176:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:30.657 INFO: GET 200 /
+- 10:12:30.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:33.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:33.484 DEBUG: OnContextCreated()
+[0624/101233.236:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:33.719 INFO: GET 200 /
+- 10:12:33.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:36.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:36.547 DEBUG: OnContextCreated()
+[0624/101236.293:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:36.782 INFO: GET 200 /
+- 10:12:36.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:39.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:39.609 DEBUG: OnContextCreated()
+[0624/101239.354:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:39.032 INFO: GET 200 /
+- 10:12:39.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:42.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:42.672 DEBUG: OnContextCreated()
+[0624/101242.419:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:42.969 INFO: GET 200 /
+- 10:12:42.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:45.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:45.734 DEBUG: OnContextCreated()
+[0624/101245.478:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:45.953 INFO: GET 200 /
+- 10:12:45.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:48.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:48.781 DEBUG: OnContextCreated()
+[0624/101248.530:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:48.016 INFO: GET 200 /
+- 10:12:48.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:51.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:51.844 DEBUG: OnContextCreated()
+[0624/101251.592:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:51.063 INFO: GET 200 /
+- 10:12:51.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:54.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:54.906 DEBUG: OnContextCreated()
+[0624/101254.656:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:55.125 INFO: GET 200 /
+- 10:12:55.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:12:57.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:12:57.984 DEBUG: OnContextCreated()
+[0624/101257.725:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:12:58.219 INFO: GET 200 /
+- 10:12:58.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:13:00.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:13:00.047 DEBUG: OnContextCreated()
+[0624/101300.791:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:13:01.282 INFO: GET 200 /
+- 10:13:01.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:13:11.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:13:11.515 DEBUG: OnContextCreated()
+[0624/101311.266:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:13:11.719 INFO: GET 200 /
+- 10:13:11.735 INFO: GET 304 /images/cijfers.png
+- 10:13:11.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:13:21.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:13:21.969 DEBUG: OnContextCreated()
+[0624/101321.716:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:13:22.157 INFO: GET 200 /
+- 10:13:22.172 INFO: GET 304 /images/cijfers.png
+- 10:13:22.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:13:32.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:13:32.406 DEBUG: OnContextCreated()
+[0624/101332.155:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:13:32.641 INFO: GET 200 /
+- 10:13:32.641 INFO: GET 304 /images/cijfers.png
+- 10:13:32.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:13:42.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:13:42.875 DEBUG: OnContextCreated()
+[0624/101342.626:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:13:43.297 INFO: GET 200 /
+- 10:13:43.313 INFO: GET 304 /images/cijfers.png
+- 10:13:43.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:13:53.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:13:53.547 DEBUG: OnContextCreated()
+[0624/101353.298:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:13:53.797 INFO: GET 200 /
+- 10:13:53.797 INFO: GET 304 /images/cijfers.png
+- 10:13:53.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:14:03.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:14:03.047 DEBUG: OnContextCreated()
+[0624/101403.791:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:14:04.235 INFO: GET 200 /
+- 10:14:04.235 INFO: GET 304 /images/cijfers.png
+- 10:14:04.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:14:14.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:14:14.484 DEBUG: OnContextCreated()
+[0624/101414.223:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:14:14.703 INFO: GET 200 /
+- 10:14:14.703 INFO: GET 304 /images/cijfers.png
+- 10:14:14.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:14:24.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58801/
+- 10:14:24.953 DEBUG: OnContextCreated()
+[0624/101424.697:INFO:CONSOLE(144)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:58801/ (144)
+- 10:14:25.203 INFO: GET 200 /
+- 10:14:25.203 INFO: GET 304 /images/cijfers.png
+- 10:14:25.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58801/
+- 10:14:29.907 DEBUG: OnBeforeClose() hwnd=1968478
+- 10:14:29.907 DEBUG: RemoveBrowserWindow(): hwnd = 1968478
+- 10:14:29.922 DEBUG: GetBrowserWindow(): not found, hwnd = 1968478
+- 10:14:29.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
