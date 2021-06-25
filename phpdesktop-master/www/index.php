@@ -8,7 +8,7 @@ include('scripts.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="refresh" content="10"> 
+    <!--<meta http-equiv="refresh" content="10"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -55,14 +55,12 @@ include('scripts.php');
     <!-- Code voor de random zinnetjes uit de database -->
     <span class="randomZin">
         <?php 
-        $randZinnen = randomZin(); 
+        include "randomZinArray.php";
         ?>
-            <?php foreach($randZinnen as $randZin) { ?>
-                <div id="fitin"> 
-                <?php echo($randZin['zinTekst']); ?> 
-                </div> <?php
-            }  ?>
-    </span>
+            <div id="fitin"> 
+            <?php echo($selectedZin[0]); ?> 
+            </div>
+    </span> 
     <div id="rooster">
     <?php
         include "roosterExport.php";
@@ -78,7 +76,7 @@ include('scripts.php');
     ?>
     </div>
     <div id="stocks">
-    <div class="legenda">Crypto Muntwaarde DagVerschil Marktwaarde</div>
+    <div class="crypto">Crypto</div><div class="data">Muntwaarde DagVerschil Marktwaarde</div>
     <?php
         include "cryptoExport.php";
         foreach ($cryptoArray as $crypto){ ?>

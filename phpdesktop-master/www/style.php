@@ -23,10 +23,7 @@ body{
     color: white;
     float: right;
 }
-.datum{
-    float: right;
-    font-size: 18px;
-}
+
 #Clock{
     color: white;
     position:fixed;
@@ -50,6 +47,7 @@ body{
 .datum{
     float: right;
     font-size: 12px;
+    margin-right: 40px;
 }
 #rooster{
     position: fixed;
@@ -91,7 +89,10 @@ body{
     color: white;
     font-size: 20px;
 }
-
+.crypto{
+    float:left;
+    width: 30%;
+}
 .legenda{
     word-spacing: 40px;
     float: right;
@@ -99,6 +100,7 @@ body{
 .data{
     word-spacing: 40px;
     float: right;
+    width: 70%;
 }
 #cijfers{
     position: fixed;

@@ -1213,3 +1213,165 @@
 - 10:14:29.907 DEBUG: RemoveBrowserWindow(): hwnd = 1968478
 - 10:14:29.922 DEBUG: GetBrowserWindow(): not found, hwnd = 1968478
 - 10:14:29.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:42:54.219 INFO: --------------------------------------------------------
+- 10:42:54.219 INFO: Started application
+- 10:42:54.219 INFO: Logging to: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log
+- 10:42:54.219 INFO: Log level = DEBUG4
+- 10:42:54.219 INFO: Starting Mongoose 3.9c web server
+- 10:42:54.219 INFO: WWW directory: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\www
+- 10:42:54.219 INFO: Index files: index.html,index.php
+- 10:42:54.219 INFO: CGI interpreter: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\php\php-cgi.exe
+- 10:42:54.219 INFO: CGI pattern: **.php$
+- 10:42:54.219 INFO: Hide files patterns: 
+- 10:42:54.219 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:42:54.234 INFO: Web server url: http://127.0.0.1:49701/
+- 10:42:54.234 INFO: remote_debugging_port = 51668
+- 10:42:54.250 DEBUG: Command line string for the browser process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --remote-debugging-port=51668
+- 10:42:56.000 DEBUG: Command line string for the gpu-process process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --service-request-channel-token=D68900DB99739E619F0B309B658C88EA --mojo-platform-channel-handle=1868 /prefetch:2
+- 10:42:56.750 DEBUG: App::OnContextInitialized()
+- 10:42:56.750 DEBUG: Window max width/height = 1840/1002
+- 10:42:56.750 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 10:42:56.750 DEBUG: GetBrowserWindow(): not found, hwnd = 1968612
+- 10:42:56.750 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:42:56.750 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:42:56.750 DEBUG: StoreBrowserWindow(): hwnd = 1968612
+- 10:42:56.906 DEBUG: ClientHandler::OnAfterCreated()
+- 10:42:56.906 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:42:56.969 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:42:56.000 DEBUG: Command line string for the renderer process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1FD11D92E608B37D4701A02BD1279062 --lang=en-US --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1FD11D92E608B37D4701A02BD1279062 --renderer-client-id=3 --mojo-platform-channel-handle=2476 /prefetch:1
+- 10:42:56.093 DEBUG: OnBrowserCreated()
+- 10:42:56.125 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0624/104256.870:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:42:58.625 INFO: GET 200 /
+- 10:42:58.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49701/
+- 11:59:31.110 INFO: --------------------------------------------------------
+- 11:59:31.110 INFO: Started application
+- 11:59:31.110 INFO: Logging to: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log
+- 11:59:31.110 INFO: Log level = DEBUG4
+- 11:59:31.110 INFO: Starting Mongoose 3.9c web server
+- 11:59:31.110 INFO: WWW directory: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\www
+- 11:59:31.110 INFO: Index files: index.html,index.php
+- 11:59:31.110 INFO: CGI interpreter: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\php\php-cgi.exe
+- 11:59:31.110 INFO: CGI pattern: **.php$
+- 11:59:31.110 INFO: Hide files patterns: 
+- 11:59:31.110 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:59:31.110 INFO: Web server url: http://127.0.0.1:54199/
+- 11:59:31.110 INFO: remote_debugging_port = 62191
+- 11:59:31.110 DEBUG: Command line string for the browser process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --remote-debugging-port=62191
+- 11:59:32.000 DEBUG: Command line string for the gpu-process process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --service-request-channel-token=D0B8CB3FD3183550C76D95613AEFCADC --mojo-platform-channel-handle=1828 /prefetch:2
+- 11:59:32.094 DEBUG: App::OnContextInitialized()
+- 11:59:32.094 DEBUG: Window max width/height = 1840/1002
+- 11:59:32.094 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 11:59:32.094 DEBUG: GetBrowserWindow(): not found, hwnd = 461052
+- 11:59:32.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:59:32.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:59:32.094 DEBUG: StoreBrowserWindow(): hwnd = 461052
+- 11:59:32.156 DEBUG: ClientHandler::OnAfterCreated()
+- 11:59:32.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:59:32.188 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:59:32.000 DEBUG: Command line string for the renderer process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=DF028FFF2FE46DDB0BAE02C59CF19E2A --lang=en-US --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=DF028FFF2FE46DDB0BAE02C59CF19E2A --renderer-client-id=3 --mojo-platform-channel-handle=2436 /prefetch:1
+- 11:59:32.016 DEBUG: OnBrowserCreated()
+- 11:59:32.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0624/115932.969:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:59:34.610 INFO: GET 200 /
+- 11:59:34.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54199/
+- 11:59:40.079 INFO: --------------------------------------------------------
+- 11:59:40.079 INFO: Started application
+- 11:59:40.079 INFO: Logging to: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log
+- 11:59:40.079 INFO: Log level = DEBUG4
+- 11:59:40.079 INFO: Starting Mongoose 3.9c web server
+- 11:59:40.079 INFO: WWW directory: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\www
+- 11:59:40.079 INFO: Index files: index.html,index.php
+- 11:59:40.094 INFO: CGI interpreter: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\php\php-cgi.exe
+- 11:59:40.094 INFO: CGI pattern: **.php$
+- 11:59:40.094 INFO: Hide files patterns: 
+- 11:59:40.094 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:59:40.094 INFO: Web server url: http://127.0.0.1:50727/
+- 11:59:40.094 INFO: remote_debugging_port = 64402
+- 11:59:40.094 DEBUG: Command line string for the browser process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --remote-debugging-port=64402
+- 11:59:41.000 DEBUG: Command line string for the gpu-process process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --service-request-channel-token=CA23A3DAEC2BC3F1449B52F704D5078E --mojo-platform-channel-handle=1812 /prefetch:2
+- 11:59:41.454 DEBUG: App::OnContextInitialized()
+- 11:59:41.454 DEBUG: Window max width/height = 1840/1002
+- 11:59:41.454 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 11:59:41.454 DEBUG: GetBrowserWindow(): not found, hwnd = 30017738
+- 11:59:41.454 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:59:41.454 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:59:41.454 DEBUG: StoreBrowserWindow(): hwnd = 30017738
+- 11:59:41.516 DEBUG: ClientHandler::OnAfterCreated()
+- 11:59:41.516 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:59:41.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:59:41.000 DEBUG: Command line string for the renderer process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7E554C222FBB5E61FA258EA66C5B928D --lang=en-US --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7E554C222FBB5E61FA258EA66C5B928D --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+[0624/115941.211:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:59:41.031 DEBUG: OnBrowserCreated()
+- 11:59:41.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 11:59:42.688 INFO: GET 200 /
+- 11:59:42.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50727/
+- 11:59:52.094 INFO: --------------------------------------------------------
+- 11:59:52.094 INFO: Started application
+- 11:59:52.094 INFO: Logging to: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log
+- 11:59:52.094 INFO: Log level = DEBUG4
+- 11:59:52.094 INFO: Starting Mongoose 3.9c web server
+- 11:59:52.094 INFO: WWW directory: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\www
+- 11:59:52.094 INFO: Index files: index.html,index.php
+- 11:59:52.094 INFO: CGI interpreter: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\php\php-cgi.exe
+- 11:59:52.094 INFO: CGI pattern: **.php$
+- 11:59:52.094 INFO: Hide files patterns: 
+- 11:59:52.094 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:59:52.094 INFO: Web server url: http://127.0.0.1:54661/
+- 11:59:52.094 INFO: remote_debugging_port = 56302
+- 11:59:52.094 DEBUG: Command line string for the browser process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --remote-debugging-port=56302
+- 11:59:52.000 DEBUG: Command line string for the gpu-process process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --service-request-channel-token=FF0E55DD818F4D842F3B63D5A57639EC --mojo-platform-channel-handle=1812 /prefetch:2
+- 11:59:52.469 DEBUG: App::OnContextInitialized()
+- 11:59:52.469 DEBUG: Window max width/height = 1840/1002
+- 11:59:52.469 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 11:59:52.469 DEBUG: GetBrowserWindow(): not found, hwnd = 14355036
+- 11:59:52.469 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:59:52.469 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:59:52.469 DEBUG: StoreBrowserWindow(): hwnd = 14355036
+- 11:59:52.516 DEBUG: ClientHandler::OnAfterCreated()
+- 11:59:52.516 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:59:52.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:59:52.000 DEBUG: Command line string for the renderer process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AE5C44AB1B425FE0D7541B2385859E0B --lang=en-US --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AE5C44AB1B425FE0D7541B2385859E0B --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+[0624/115952.555:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:59:52.031 DEBUG: OnBrowserCreated()
+- 11:59:52.047 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 11:59:53.688 INFO: GET 200 /
+- 11:59:53.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54661/
+- 12:00:28.094 INFO: --------------------------------------------------------
+- 12:00:28.094 INFO: Started application
+- 12:00:28.094 INFO: Logging to: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log
+- 12:00:28.094 INFO: Log level = DEBUG4
+- 12:00:28.094 INFO: Starting Mongoose 3.9c web server
+- 12:00:28.094 INFO: WWW directory: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\www
+- 12:00:28.094 INFO: Index files: index.html,index.php
+- 12:00:28.094 INFO: CGI interpreter: C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\php\php-cgi.exe
+- 12:00:28.094 INFO: CGI pattern: **.php$
+- 12:00:28.094 INFO: Hide files patterns: 
+- 12:00:28.094 INFO: CGI environment variables set: TMP=C:\Users\steve\AppData\Local\Temp\,TEMP=C:\Users\steve\AppData\Local\Temp\,TMPDIR=C:\Users\steve\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:00:28.110 INFO: Web server url: http://127.0.0.1:53174/
+- 12:00:28.110 INFO: remote_debugging_port = 58735
+- 12:00:28.110 DEBUG: Command line string for the browser process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --remote-debugging-port=58735
+- 12:00:28.000 DEBUG: Command line string for the gpu-process process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3e9b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9466 --gpu-driver-date=3-30-2021 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1f15 --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --service-request-channel-token=9A98E9AC91E5F986E5D36AFAE9F66B71 --mojo-platform-channel-handle=1824 /prefetch:2
+- 12:00:28.375 DEBUG: App::OnContextInitialized()
+- 12:00:28.375 DEBUG: Window max width/height = 1840/1002
+- 12:00:28.375 DEBUG: Window max size exceeded, new width/height = 1840/1002
+- 12:00:28.375 DEBUG: GetBrowserWindow(): not found, hwnd = 1313120
+- 12:00:28.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:00:28.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:00:28.375 DEBUG: StoreBrowserWindow(): hwnd = 1313120
+- 12:00:28.422 DEBUG: ClientHandler::OnAfterCreated()
+- 12:00:28.422 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:00:29.453 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:00:29.000 DEBUG: Command line string for the renderer process: "C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=8389BF61E0258156900E9552EA7521E3 --lang=en-US --lang=en-US --log-file="C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8389BF61E0258156900E9552EA7521E3 --renderer-client-id=3 --mojo-platform-channel-handle=2444 /prefetch:1
+- 12:00:29.031 DEBUG: OnBrowserCreated()
+[0624/120029.070:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 12:00:29.031 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0624/120029.075:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0624/120029.076:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\webcache\GPUCache to C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\webcache\old_GPUCache_001
+[0624/120029.076:ERROR:disk_cache.cc(132)] Unable to create cache
+[0624/120029.076:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0624/120029.078:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0624/120029.078:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\webcache\Cache to C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\phpdesktop-master\webcache\old_Cache_001
+[0624/120029.078:ERROR:disk_cache.cc(132)] Unable to create cache
+- 12:00:30.578 INFO: GET 200 /
+- 12:00:30.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53174/
