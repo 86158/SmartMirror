@@ -15,7 +15,7 @@ import subprocess
 eduarteSchool   = "ROC Ter AA"
 eduarteMail     = "86513@roc-teraa.nl"
 eduarteUsername = "86513"
-eduartePassword = "SnC6e6px"
+eduartePassword = "SnC6"
 
 # open browser
 PATH = "C:\Program Files (x86)\chromedriver.exe"
