@@ -8,3 +8,4 @@ C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\Mi
 C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.exe
 C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.pdb
 C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.InstallMirror.resources
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.Launch.resources

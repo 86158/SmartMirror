@@ -40,6 +40,7 @@ namespace MirrorInstallerSbos
             this.btnMover = new System.Windows.Forms.Button();
             this.btnMirrorMove = new System.Windows.Forms.Button();
             this.tmrDelay = new System.Windows.Forms.Timer(this.components);
+            this.btnStartMirror = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rtbxOutput
@@ -137,11 +138,22 @@ namespace MirrorInstallerSbos
             // 
             this.tmrDelay.Tick += new System.EventHandler(this.tmrDelay_Tick);
             // 
+            // btnStartMirror
+            // 
+            this.btnStartMirror.Location = new System.Drawing.Point(574, 12);
+            this.btnStartMirror.Name = "btnStartMirror";
+            this.btnStartMirror.Size = new System.Drawing.Size(201, 78);
+            this.btnStartMirror.TabIndex = 9;
+            this.btnStartMirror.Text = "Launch Mirror";
+            this.btnStartMirror.UseVisualStyleBackColor = true;
+            this.btnStartMirror.Click += new System.EventHandler(this.btnStartMirror_Click);
+            // 
             // InstallMirror
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnStartMirror);
             this.Controls.Add(this.btnMirrorMove);
             this.Controls.Add(this.btnMover);
             this.Controls.Add(this.btnInstallScreenshot);
@@ -170,6 +182,7 @@ namespace MirrorInstallerSbos
         private System.Windows.Forms.Button btnMover;
         private System.Windows.Forms.Button btnMirrorMove;
         private System.Windows.Forms.Timer tmrDelay;
+        private System.Windows.Forms.Button btnStartMirror;
     }
 }
 
