@@ -1,0 +1,10 @@
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\bin\Debug\MirrorInstallerSbos.exe.config
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\bin\Debug\MirrorInstallerSbos.exe
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\bin\Debug\MirrorInstallerSbos.pdb
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.csprojAssemblyReference.cache
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.Properties.Resources.resources
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.csproj.GenerateResource.cache
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.csproj.CoreCompileInputs.cache
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.exe
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.pdb
+C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.InstallMirror.resources
