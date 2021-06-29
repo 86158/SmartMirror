@@ -11,6 +11,8 @@ using System.Diagnostics;
 using System.IO;
 
 
+
+
 namespace MirrorInstallerSbos
 {
     public partial class InstallMirror : Form
@@ -19,16 +21,18 @@ namespace MirrorInstallerSbos
         {
             InitializeComponent();
         }
-        static string PATH = Application.StartupPath + "\\..\\..\\Resources\\";
+        static string PATH = Application.StartupPath + "\\..\\..\\";
         static string Program;
         string TextOutput;
         int delay;
+        string result;
+        bool newLine = false;
         private void btnInstall_Click(object sender, EventArgs e)
         {
             Program = "python-3.9.5-amd64.exe";
             OpenProgram();
-            rtbxOutput.AppendText("Launched: " + Program);
-            rtbxOutput.AppendText("Enabled the Selenium install button\n");
+            rtbxOutput.AppendText("Launched: " + PATH + Program);
+            rtbxOutput.AppendText("\nEnabled the Selenium install button\n");
             btnSelenium.Enabled = true;
             btnInstallScreenshot.Enabled = true;
             btnMover.Enabled = true;
@@ -153,7 +157,7 @@ namespace MirrorInstallerSbos
             rtbxOutput.AppendText("Moving the mirror to the right place");
 
             string path1 = PATH + "SmartMirror.rar";
-            string path21 = "C:\\Program Files (x86)\\Smartmirror.rar";
+            string path21 = "C:\\Smartmirror.rar";
             try
             {
                 if (!File.Exists(path1))
@@ -198,7 +202,7 @@ namespace MirrorInstallerSbos
             if (delay == 20)
             {
                 tmrDelay.Stop();
-                const string source = "C:\\Program Files (x86)\\Smartmirror.rar";
+                const string source = "C:\\Smartmirror.rar";
                 string destinationFolder = source.Remove(source.LastIndexOf('.'));
                 System.Diagnostics.Process p = new System.Diagnostics.Process();
                 p.StartInfo.CreateNoWindow = true;
@@ -209,6 +213,35 @@ namespace MirrorInstallerSbos
                 p.WaitForExit();
                 delay = 0;
                 tmrDelay.Stop();
+            }
+            if (newLine == true)
+            {
+                rtbxOutput.AppendText(result + "\n");
+                newLine = false;
+            }
+        }
+
+        private void btnStartMirror_Click(object sender, EventArgs e)
+        {
+            run_cmd("C:/Users/steve/AppData/Local/Microsoft/WindowsApps/python3.9.exe", "C:/Smartmirror/www/eduarte.py");
+
+        }
+        private void run_cmd(string cmd, string args)
+        {
+            ProcessStartInfo start = new ProcessStartInfo();
+            start.FileName = cmd;//cmd is full path to python.exe
+            start.Arguments = args;//args is path to .py file and any cmd line args
+            start.UseShellExecute = false;
+            start.RedirectStandardOutput = true;
+            start.CreateNoWindow = true;
+            using (Process process = Process.Start(start))
+            {
+                using (StreamReader reader = process.StandardOutput)
+                {
+                    result = reader.ReadLine();
+                    newLine = true;
+                    Console.Write(result);
+                }
             }
         }
     }
