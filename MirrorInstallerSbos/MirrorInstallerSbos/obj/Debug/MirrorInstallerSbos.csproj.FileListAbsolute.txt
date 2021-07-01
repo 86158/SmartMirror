@@ -9,3 +9,14 @@ C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\Mi
 C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.pdb
 C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.InstallMirror.resources
 C:\Users\steve\source\repos\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.Launch.resources
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\bin\Debug\MirrorInstallerSbos.exe.config
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\bin\Debug\MirrorInstallerSbos.exe
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\bin\Debug\MirrorInstallerSbos.pdb
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.csprojAssemblyReference.cache
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.InstallMirror.resources
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.Launch.resources
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.Properties.Resources.resources
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.csproj.GenerateResource.cache
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.csproj.CoreCompileInputs.cache
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.exe
+C:\Users\steve\OneDrive - ROC Ter AA\Vakken\proftaak\SmartMirror\MirrorInstallerSbos\MirrorInstallerSbos\obj\Debug\MirrorInstallerSbos.pdb

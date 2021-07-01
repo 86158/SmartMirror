@@ -88,7 +88,33 @@ with open("feestdagExport.php", "w") as txt_file:
     txt_file.close()
 print(feestdagenExport)
 
-# next part
+# next part ---> Weather
+print("cookies confirmed")
+driver.find_element_by_link_text("Is goed, toon de popup").click()
+print("location accepted")
+time.sleep(1)
+
+weersverwachting3Dagen = driver.find_elements_by_xpath("/html/body/div[2]/div/main/div[1]/div[1]/section[2]/div[1]/div/div[1]/div[2]/div[1]/div/table/tbody/tr")
+print(weersverwachting3Dagen)
+
+#make array readable
+weersverwachtingexport = []
+weersverwachtingexport.append("array (")
+
+#Create the php array with information from the website
+arrayCounter = 0
+for day in weersverwachting3Dagen:
+    print(day.text)
+    weersverwachtingexport.append("\t"+ str(arrayCounter) +" => '" + str.replace(day.text, "°", "&deg;") + "',")
+    arrayCounter += 1
+
+
+with open("weersVerwachtingexport.php", "w") as txt_file:
+    txt_file.write("<?php\n $weersVerwachtingArray = ")
+    for line in weersverwachtingexport:
+        txt_file.write("".join(line) + "\n")
+    txt_file.write(")\n?>")
+    txt_file.close()
 # visit eduarte in browser
 print("Enter School")
 driver.get("https://login.educus.nl/")

@@ -21,11 +21,13 @@ namespace MirrorInstallerSbos
         {
             InitializeComponent();
         }
+        
         static string PATH = Application.StartupPath + "\\..\\..\\";
         static string Program;
         string TextOutput;
         int delay;
         string result;
+        string prevResult;
         bool newLine = false;
         private void btnInstall_Click(object sender, EventArgs e)
         {
@@ -111,42 +113,49 @@ namespace MirrorInstallerSbos
 
         private void btnMover_Click(object sender, EventArgs e)
         {
+
             string path = PATH + "Chromedriver.exe";
             string path2 = "C:\\Program Files (x86)\\Chromedriver.exe";
-            try
+            if (File.Exists(path)) {
+                try
+                {
+                    if (!File.Exists(path))
+                    {
+                        // This statement ensures that the file is created,
+                        // but the handle is not kept.
+                        using (FileStream fs = File.Create(path)) { }
+                    }
+
+                    // Ensure that the target does not exist.
+                    if (File.Exists(path2))
+                        File.Delete(path2);
+
+                    // Move the file.
+                    File.Copy(path, path2);
+                    Console.WriteLine("{0} was moved to {1}.", path, path2);
+
+                    // See if the original exists now.
+                    if (File.Exists(path))
+                    {
+                        Console.WriteLine("The original file still exists, which is unexpected.");
+                        TextOutput = "Chromedriver is moved to " + path2 + " \nThe original file still exists, which is unexpected.";
+                    }
+                    else
+                    {
+                        Console.WriteLine("The original file no longer exists, which is expected.");
+                        TextOutput = "Chromedriver is moved to " + path2 + "\nThe original file no longer exists, which is expected.";
+                    }
+                }
+                catch
+                {
+                    Console.WriteLine("The process failed: {0}", e.ToString());
+                }
+                rtbxOutput.AppendText(TextOutput + "\n");
+            } 
+            else
             {
-                if (!File.Exists(path))
-                {
-                    // This statement ensures that the file is created,
-                    // but the handle is not kept.
-                    using (FileStream fs = File.Create(path)) { }
-                }
-
-                // Ensure that the target does not exist.
-                if (File.Exists(path2))
-                    File.Delete(path2);
-
-                // Move the file.
-                File.Copy(path, path2);
-                Console.WriteLine("{0} was moved to {1}.", path, path2);
-
-                // See if the original exists now.
-                if (File.Exists(path))
-                {
-                    Console.WriteLine("The original file still exists, which is unexpected.");
-                    TextOutput = "Chromedriver is moved to " + path2 + " \nThe original file still exists, which is unexpected.";
-                }
-                else
-                {
-                    Console.WriteLine("The original file no longer exists, which is expected.");
-                    TextOutput = "Chromedriver is moved to " + path2 + "\nThe original file no longer exists, which is expected.";
-                }
+                MessageBox.Show("Origin Chromedriver does not exist\n Download Chromedriver for your version and put it in C:/Program Files (x86)");
             }
-            catch 
-            {
-                Console.WriteLine("The process failed: {0}", e.ToString());
-            }
-            rtbxOutput.AppendText(TextOutput + "\n");
         }
 
         private void btnMirrorMove_Click(object sender, EventArgs e)
@@ -199,7 +208,7 @@ namespace MirrorInstallerSbos
         private void tmrDelay_Tick(object sender, EventArgs e)
         {
             delay++;
-            if (delay == 20)
+            if (delay == 100)
             {
                 tmrDelay.Stop();
                 const string source = "C:\\Smartmirror.rar";
@@ -220,11 +229,12 @@ namespace MirrorInstallerSbos
                 newLine = false;
             }
         }
-
+        string pythonPath = "C:/Users/steve/AppData/Local/Microsoft/WindowsApps/python3.9.exe";
         private void btnStartMirror_Click(object sender, EventArgs e)
         {
-            run_cmd("C:/Users/steve/AppData/Local/Microsoft/WindowsApps/python3.9.exe", "C:/Smartmirror/www/eduarte.py");
-
+           
+           run_cmd(pythonPath, "C:/SmartMirror/www/eduarte.py");
+           tmrAppTick.Start();
         }
         private void run_cmd(string cmd, string args)
         {
@@ -233,16 +243,33 @@ namespace MirrorInstallerSbos
             start.Arguments = args;//args is path to .py file and any cmd line args
             start.UseShellExecute = false;
             start.RedirectStandardOutput = true;
-            start.CreateNoWindow = true;
+            start.CreateNoWindow = false;
             using (Process process = Process.Start(start))
             {
                 using (StreamReader reader = process.StandardOutput)
                 {
-                    result = reader.ReadLine();
+                    result = reader.ReadToEnd();
+                    rtbxOutput.AppendText(process.StandardOutput.ReadToEnd());
                     newLine = true;
                     Console.Write(result);
                 }
             }
+        }
+
+
+        private void tmrAppTick_Tick(object sender, EventArgs e)
+        {
+            if (result != prevResult)
+            {
+                rtbxOutput.AppendText(result + "\n");
+                prevResult = result;
+            }
+        }
+
+        private void btnPythonPath_Click(object sender, EventArgs e)
+        {
+            pythonPath = tbxPythonPath.Text;
+            lblCurrentPath.Text = tbxPythonPath.Text;
         }
     }
 }

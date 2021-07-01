@@ -54,7 +54,7 @@
 				'eindtijd' => '10:15',
 			),
 			1 => array (
-				'vak' => 'Online les IC - itsk - IC.20SD.e,IC.20SD.b,IC.20SD.a - GEST',
+				'vak' => 'Online les IC - prta - IC.20SD.e,IC.20SD.b,IC.20SD.a - GEST',
 				'begintijd' => '10:15',
 				'eindtijd' => '10:45',
 			),

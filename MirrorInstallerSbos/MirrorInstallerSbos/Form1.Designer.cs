@@ -41,6 +41,11 @@ namespace MirrorInstallerSbos
             this.btnMirrorMove = new System.Windows.Forms.Button();
             this.tmrDelay = new System.Windows.Forms.Timer(this.components);
             this.btnStartMirror = new System.Windows.Forms.Button();
+            this.tmrAppTick = new System.Windows.Forms.Timer(this.components);
+            this.tbxPythonPath = new System.Windows.Forms.TextBox();
+            this.btnPythonPath = new System.Windows.Forms.Button();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.lblCurrentPath = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // rtbxOutput
@@ -140,19 +145,63 @@ namespace MirrorInstallerSbos
             // 
             // btnStartMirror
             // 
-            this.btnStartMirror.Location = new System.Drawing.Point(574, 12);
+            this.btnStartMirror.Location = new System.Drawing.Point(561, 54);
             this.btnStartMirror.Name = "btnStartMirror";
-            this.btnStartMirror.Size = new System.Drawing.Size(201, 78);
+            this.btnStartMirror.Size = new System.Drawing.Size(201, 36);
             this.btnStartMirror.TabIndex = 9;
             this.btnStartMirror.Text = "Launch Mirror";
             this.btnStartMirror.UseVisualStyleBackColor = true;
             this.btnStartMirror.Click += new System.EventHandler(this.btnStartMirror_Click);
+            // 
+            // tmrAppTick
+            // 
+            this.tmrAppTick.Interval = 60;
+            this.tmrAppTick.Tick += new System.EventHandler(this.tmrAppTick_Tick);
+            // 
+            // tbxPythonPath
+            // 
+            this.tbxPythonPath.Location = new System.Drawing.Point(278, 10);
+            this.tbxPythonPath.Name = "tbxPythonPath";
+            this.tbxPythonPath.Size = new System.Drawing.Size(390, 20);
+            this.tbxPythonPath.TabIndex = 10;
+            // 
+            // btnPythonPath
+            // 
+            this.btnPythonPath.Location = new System.Drawing.Point(674, 8);
+            this.btnPythonPath.Name = "btnPythonPath";
+            this.btnPythonPath.Size = new System.Drawing.Size(88, 23);
+            this.btnPythonPath.TabIndex = 11;
+            this.btnPythonPath.Text = "Save";
+            this.btnPythonPath.UseVisualStyleBackColor = true;
+            this.btnPythonPath.Click += new System.EventHandler(this.btnPythonPath_Click);
+            // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.Location = new System.Drawing.Point(275, 33);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(68, 13);
+            this.lbl1.TabIndex = 12;
+            this.lbl1.Text = "Current path:";
+            // 
+            // lblCurrentPath
+            // 
+            this.lblCurrentPath.AutoSize = true;
+            this.lblCurrentPath.Location = new System.Drawing.Point(341, 34);
+            this.lblCurrentPath.Name = "lblCurrentPath";
+            this.lblCurrentPath.Size = new System.Drawing.Size(351, 13);
+            this.lblCurrentPath.TabIndex = 13;
+            this.lblCurrentPath.Text = "C:/Users/steve/AppData/Local/Microsoft/WindowsApps/python3.9.exe";
             // 
             // InstallMirror
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblCurrentPath);
+            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.btnPythonPath);
+            this.Controls.Add(this.tbxPythonPath);
             this.Controls.Add(this.btnStartMirror);
             this.Controls.Add(this.btnMirrorMove);
             this.Controls.Add(this.btnMover);
@@ -183,6 +232,11 @@ namespace MirrorInstallerSbos
         private System.Windows.Forms.Button btnMirrorMove;
         private System.Windows.Forms.Timer tmrDelay;
         private System.Windows.Forms.Button btnStartMirror;
+        private System.Windows.Forms.Timer tmrAppTick;
+        private System.Windows.Forms.TextBox tbxPythonPath;
+        private System.Windows.Forms.Button btnPythonPath;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label lblCurrentPath;
     }
 }
 

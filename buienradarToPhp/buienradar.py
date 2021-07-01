@@ -23,8 +23,8 @@ driver.find_element_by_link_text("Is goed, toon de popup").click()
 print("location accepted")
 time.sleep(1)
 
-weersverwachting3Dagen = driver.find_elements_by_xpath("/html/body/div[2]/div/main/div[1]/div[1]/section[2]/div[1]/div/div[1]/div[2]/div[1]/div/table/tbody/tr")
-print(weersverwachting3Dagen)
+weersverwachting3Dagen = driver.find_elements_by_xpath("/html/body/div[2]/div/main/div[1]/div[1]/section[2]/div[1]/div/div[1]/div[1]/div[1]/div/table/tbody/tr")
+print(weersverwachting3Dagen.text)
 
 #make array readable
 weersverwachtingexport = []
