@@ -15,7 +15,7 @@ import subprocess
 eduarteSchool   = "ROC Ter AA"
 eduarteMail     = "86513@roc-teraa.nl"
 eduarteUsername = "86513"
-eduartePassword = "SnC6"
+eduartePassword = "SnC6e6px"
 
 # open browser
 PATH = "C:\Program Files (x86)\chromedriver.exe"
@@ -25,7 +25,6 @@ driver = webdriver.Chrome(PATH)
 url = "https://www.valuta.nl/cryptomunten"
 driver.get(url)
 time.sleep(1)
-
 #pak de feestdagen
 js_string = "var element = document.getElementById(\"gdpr-consent-tool-wrapper\");element.remove();"
 driver.execute_script(js_string)
@@ -36,7 +35,7 @@ feestdagenExport.append(" array (")
 #Create the php array with information from the website
 feestdagCount = 1
 divCounter = 1
-for x in range(6):
+for x in range(8):
     feestdag = driver.find_element_by_xpath("/html/body/form/div[3]/div/div[3]/div/div[1]/ul[2]/li["+ str(feestdagCount) +"]/a/div[1]")
     print (feestdag.text)
     feestdagenExport.append("\t"+ str(divCounter) +" => array (")
@@ -88,13 +87,18 @@ with open("feestdagExport.php", "w") as txt_file:
     txt_file.close()
 print(feestdagenExport)
 
-# next part ---> Weather
+# visit buienradar in browser
+print("Enter buienradar")
+driver.get("https://www.buienradar.nl/")
+time.sleep(2)
+# confirm cookies and cancel location
+driver.find_element_by_id("onetrust-accept-btn-handler").click()
 print("cookies confirmed")
 driver.find_element_by_link_text("Is goed, toon de popup").click()
 print("location accepted")
 time.sleep(1)
 
-weersverwachting3Dagen = driver.find_elements_by_xpath("/html/body/div[2]/div/main/div[1]/div[1]/section[2]/div[1]/div/div[1]/div[2]/div[1]/div/table/tbody/tr")
+weersverwachting3Dagen = driver.find_elements_by_xpath("/html/body/div[2]/div/main/div[1]/div[1]/section[2]/div[1]/div/div[1]/div[1]/div[1]/div/table/tbody/tr")
 print(weersverwachting3Dagen)
 
 #make array readable
@@ -115,6 +119,7 @@ with open("weersVerwachtingexport.php", "w") as txt_file:
         txt_file.write("".join(line) + "\n")
     txt_file.write(")\n?>")
     txt_file.close()
+time.sleep(1)
 # visit eduarte in browser
 print("Enter School")
 driver.get("https://login.educus.nl/")
@@ -131,10 +136,10 @@ time.sleep(3)
 print("Enter school Mail adress")
 driver.find_element_by_id("i0116").send_keys(eduarteMail)
 driver.find_element_by_id("idSIButton9").click()
-time.sleep(1)
+time.sleep(2)
 print("Enter school password")
 driver.find_element_by_id("i0118").send_keys(eduartePassword)
-time.sleep(2)
+time.sleep(1)
 
 print("Login")
 driver.find_element_by_id("idSIButton9").click()
@@ -237,6 +242,7 @@ if os.path.isfile(r'C:\Smartmirror\www\images\clipping_shot.png') == True:
 os.rename(imgs_url,r'C:\Smartmirror\www\images\cijfers.png')
 print('Renamed the results file')
 
-subprocess.call(["C:\\phpdesktop-master\\phpdesktop-chrome.exe"])
+
+subprocess.call([os.path.realpath(__file__) + "/../../phpdesktop-chrome.exe"])
 
 #close browser after 1 second

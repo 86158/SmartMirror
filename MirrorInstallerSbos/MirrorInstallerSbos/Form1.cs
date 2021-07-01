@@ -21,7 +21,20 @@ namespace MirrorInstallerSbos
         {
             InitializeComponent();
         }
-        
+        private void InstallMirror_Load(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Do you want to install the mirror?\n", "Yes = Install\nNo = Fast launch", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                MessageBox.Show("You need to install Python for this application. Press all the buttons for the full installation");
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                run_cmd(pythonPath, "C:/SmartMirror/www/eduarte.py");
+                tmrAppTick.Start();
+            }
+        }
+
         static string PATH = Application.StartupPath + "\\..\\..\\";
         static string Program;
         string TextOutput;
@@ -232,7 +245,6 @@ namespace MirrorInstallerSbos
         string pythonPath = "C:/Users/steve/AppData/Local/Microsoft/WindowsApps/python3.9.exe";
         private void btnStartMirror_Click(object sender, EventArgs e)
         {
-           
            run_cmd(pythonPath, "C:/SmartMirror/www/eduarte.py");
            tmrAppTick.Start();
         }
@@ -268,9 +280,12 @@ namespace MirrorInstallerSbos
 
         private void btnPythonPath_Click(object sender, EventArgs e)
         {
-            pythonPath = tbxPythonPath.Text;
-            lblCurrentPath.Text = tbxPythonPath.Text;
+            openFileDialog1.ShowDialog();
+            pythonPath = openFileDialog1.FileName;
+            btnStartMirror.Enabled = true;
         }
+
+
     }
 }
 

@@ -23,7 +23,16 @@ body{
     color: white;
     float: right;
 }
-
+#weer{
+    position: fixed;
+    left: -20;
+    top: -45; 
+}
+#weer li{
+    font-size: 25px;
+    border-bottom: solid 1px gray 0.5;
+    list-style: none;
+}
 #Clock{
     color: white;
     position:fixed;

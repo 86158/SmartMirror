@@ -17,7 +17,17 @@ include('scripts.php');
 <?php $f = 1; ?>
     <div id="Clock">
         <div id="weer">
-            <iframe src="//gadgets.buienradar.nl/gadget/forecastandstation/6370/" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=190></iframe>
+            <ul> 
+                <li>
+                Weersverwachting:
+                </li>
+                <?php
+                    include "weersVerwachtingexport.php";
+                    foreach ($weersVerwachtingArray as $day) {
+                    echo "<li class='agendaDag'>", $day, "</li>";;
+                    }   
+                ?>
+            </ul>
         </div>
         <div class="datum"><?php Date_show(); ?></div>
         <div id="Time">
